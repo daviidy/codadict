@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/94491a0993.js" crossorigin="anonymous"></script>
 
   <style media="screen">
     /*! CSS Used from: https://www.freelancerepublik.com/assets/css/app.5cbb9c31.css */
@@ -3345,7 +3347,7 @@
 
     </div>
     <div id="#modalHost"></div>
-    
+
 </body>
 
 </html>

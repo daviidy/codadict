@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/94491a0993.js" crossorigin="anonymous"></script>
   <style media="screen">
     /*! CSS Used from: https://www.freelancerepublik.com/assets/css/chunk-vendors.ef702a6b.css */
     .fadeIn {
@@ -75,7 +77,7 @@
 
     p[data-v-d722a68c] {
       color: #b2b2b2;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.29rem;
       line-height: 22px;
     }
@@ -97,7 +99,7 @@
 
     .footer .title[data-v-d722a68c] {
       color: #fafafa;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .85rem;
       font-weight: 900;
       line-height: 15px;
@@ -114,7 +116,7 @@
       max-width: 25vw;
       opacity: .7;
       color: #fff;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1rem;
       line-height: 28px;
     }
@@ -122,7 +124,7 @@
     .footer a[data-v-d722a68c],
     .footer p[data-v-d722a68c] {
       color: #7e8082;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1rem;
       line-height: 28px;
       text-align: left !important;
@@ -136,7 +138,7 @@
     .footer small a[data-v-d722a68c] {
       margin-top: 45px;
       color: #7e8082;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .85rem;
       line-height: 20px;
       text-align: center;
@@ -209,11 +211,11 @@
     #app.frk-normalizer,
     body {
       color: #4a4a4a;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
     }
 
     .title {
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       color: #363738;
     }
 
@@ -264,7 +266,7 @@
     }
 
     body {
-      font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-family: 'Montserrat', sans-serif;
     }
 
     body {
@@ -528,7 +530,7 @@
     .frk-action-button-blue {
       display: inline-block;
       border-radius: 6px;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .85rem;
       font-weight: 900;
       line-height: 15px;
@@ -583,7 +585,7 @@
     .frk-action-button-blue-inverted {
       display: inline-block;
       border-radius: 6px;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .85rem;
       font-weight: 900;
       line-height: 15px;
@@ -640,7 +642,7 @@
     .frk-action-link {
       display: inline-block;
       color: #363738;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .85rem;
       font-weight: 700;
       line-height: 13px;
@@ -696,7 +698,7 @@
 
     #header .navbar .navbar-simple {
       color: #363738;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .85rem;
       font-weight: 700;
       line-height: 13px;
@@ -1442,7 +1444,7 @@
     /*! CSS Used from: https://www.freelancerepublik.com/assets/css/chunk-d40965cc.99cff68c.css */
     h3[data-v-270f5fc6] {
       color: #363738;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.29rem;
       font-weight: 500;
       line-height: 25px;
@@ -1517,7 +1519,7 @@
 
     h1[data-v-4e2a56e8] {
       color: #363738;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 3.21rem;
       font-weight: 500;
       line-height: 50px;
@@ -1535,7 +1537,7 @@
 
     h2[data-v-4e2a56e8] {
       color: #363738;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.57rem;
       font-weight: 500;
       line-height: 41px;
@@ -1551,7 +1553,7 @@
 
     h3[data-v-4e2a56e8] {
       color: #363738;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.29rem;
       font-weight: 500;
       line-height: 25px;
@@ -1567,7 +1569,7 @@
 
     p[data-v-4e2a56e8] {
       color: #b2b2b2;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.29rem;
       line-height: 22px;
     }
@@ -1691,7 +1693,7 @@
 
     .companies p[data-v-4e2a56e8] {
       color: #363738;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.29rem;
       font-weight: 500;
       line-height: 23px;
@@ -1982,7 +1984,7 @@
 
     .promise .headline[data-v-4e2a56e8] {
       color: #128dce;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .85rem;
       font-weight: 700;
       line-height: 15px;
@@ -2057,7 +2059,7 @@
 
     .testimony .text[data-v-4e2a56e8] {
       color: #fafafa;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.29rem;
       font-weight: 500;
       line-height: 32px;
@@ -2070,7 +2072,7 @@
       bottom: 86px;
       left: 70vw;
       color: #fafafa;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.29rem;
       font-weight: 500;
       line-height: 32px;
@@ -2081,7 +2083,7 @@
       bottom: 67px;
       left: 70vw;
       color: #7e8082;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1rem;
       line-height: 22px;
     }
@@ -2091,7 +2093,7 @@
       bottom: 45px;
       left: 70vw;
       color: #7e8082;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1rem;
       line-height: 22px;
     }

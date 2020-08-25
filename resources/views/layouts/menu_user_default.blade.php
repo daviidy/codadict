@@ -6,18 +6,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/94491a0993.js" crossorigin="anonymous"></script>
 
     <!-- Title Page-->
     <title></title>
 
     <!-- Fontfaces CSS-->
     <link href="/assets/css//font-face.css" rel="stylesheet" media="all">
-    <link href="/assets/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link href="/assets/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="/assets/vendor/font-awesome-4.7/css/font-awesome.min.cs" rel="stylesheet" media="all">
+    <link href="/assets/vendor/font-awesome-5/css/fontawesome-all.min.ss" rel="stylesheet" media="all">
     <link href="/assets/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
 
     <!-- Bootstrap CSS-->
@@ -42,7 +44,7 @@
         <aside class="menu-sidebar2">
             <div class="logo">
                 <a href="#">
-                    <img src="images/icon/logo-white.png" alt="Cool Admin" />
+                    <img src="/assets/imgs/icon/logoc.png" alt="Cool Admin" />
                 </a>
             </div>
             <div class="menu-sidebar2__content js-scrollbar1">
@@ -208,7 +210,7 @@
                         <div class="header-wrap2">
                             <div class="logo d-block d-lg-none">
                                 <a href="#">
-                                    <img src="images/icon/logo-white.png" alt="CoolAdmin" />
+                                    <img src="/assets/imgs/icon/logoc.png" alt="CoolAdmin" />
                                 </a>
                             </div>
                             <div class="header-button2">
@@ -306,7 +308,7 @@
             <aside class="menu-sidebar2 js-right-sidebar d-block d-lg-none">
                 <div class="logo">
                     <a href="#">
-                        <img src="images/icon/logo-white.png" alt="Cool Admin" />
+                        <img src="/assets/imgs/icon/logoc.png" alt="Cool Admin" />
                     </a>
                 </div>
                 <div class="menu-sidebar2__content js-scrollbar2">
