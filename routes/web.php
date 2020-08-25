@@ -14,16 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('akwaba');
 });
+
+Route::resource('users', 'UserController');
 
 Route::get('/codact', function () {
     return view('codact');
 });
 
-Route::get('/users/default', function () {
-    return view('/users/user_default/index');
-});
 
 Route::get('/users/myproject', function () {
     return view('/users/user_default/myProject');
@@ -37,6 +36,11 @@ Route::get('/users/editproject', function () {
     return view('/users/user_default/edit_project');
 });
 
-Route::get('/users/setting', function () {
-    return view('/users/user_default/setting_user');
-});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/admin', 'AdminController@admin')
+    ->middleware('is_admin')
+    ->name('admin');

@@ -3331,11 +3331,27 @@
                 <!---->
                 <!---->
               </div>
-            </div><a class="is-hidden-desktop login-button frk-action-button-red-inverted">ME CONNECTER</a>
+            </div>
+            <a class="is-hidden-desktop login-button frk-action-button-red-inverted">ME CONNECTER</a>
             <div class="navbar-menu">
-              <div class="navbar-start"><a href="/concept" class="navbar-item navbar-simple" id="concept" data-test="ConceptLink">CONCEPT</a><a href="/contact" class="navbar-item navbar-simple" id="contact" data-test="ContactLink">CONTACTEZ NOUS</a><a
-                  class="navbar-item navbar-simple text-red is-hidden-desktop">SE CONNECTER</a></div>
-              <div class="navbar-end is-hidden-touch"><a class="mr-1 frk-action-button-red-inverted">ME CONNECTER</a></div>
+              <div class="navbar-start"><a href="/concept" class="navbar-item navbar-simple" id="concept" data-test="ConceptLink">CONCEPT</a>
+                  <a href="/contact" class="navbar-item navbar-simple" id="contact" data-test="ContactLink">CONTACTEZ NOUS</a>
+                  @guest
+                  <a href="/login" class="navbar-item navbar-simple text-red is-hidden-desktop">SE CONNECTER</a>
+                  @endguest
+                  @auth
+                  <a href="/home" class="navbar-item navbar-simple text-red is-hidden-desktop">TABLEAU DE BORD</a>
+                  @endauth
+              </div>
+
+              <div class="navbar-end is-hidden-touch">
+                  @guest
+                  <a class="mr-1 frk-action-button-red-inverted" href="/login">ME CONNECTER</a>
+                  @endguest
+                  @auth
+                  <a class="mr-1 frk-action-button-red-inverted" href="/home">TABLEAU DE BORD</a>
+                  @endauth
+              </div>
             </div>
           </nav>
         </div>
@@ -3345,7 +3361,7 @@
 
     </div>
     <div id="#modalHost"></div>
-    
+
 </body>
 
 </html>
