@@ -19,7 +19,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'country', 'type', 'phone', 'image', 'company'
     ];
 
     /**
@@ -43,4 +43,14 @@ class User extends Authenticatable
     public function isAdmin()    {
     return $this->type === self::ADMIN_TYPE;
     }
+
+    /**
+     * [users description]
+     * relationship one to many with Projects model
+     * @return [array] [description]
+     */
+     public function projects()
+     {
+         return $this->hasMany('App\Project');
+     }
 }

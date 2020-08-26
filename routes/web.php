@@ -18,6 +18,8 @@ Route::get('/', function () {
 });
 
 Route::resource('users', 'UserController');
+Route::resource('projects', 'ProjectController');
+Route::resource('categories', 'CategoryController');
 
 Route::get('/codact', function () {
     return view('codact');
