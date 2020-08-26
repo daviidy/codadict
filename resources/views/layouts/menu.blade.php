@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+font-family: 'Montserrat', sans-serif<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
@@ -6,7 +6,16 @@
   <title></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/94491a0993.js" crossorigin="anonymous"></script>
+  <!-- ==============================================
+  Favicons
+  =============================================== -->
+  <link rel="shortcut icon" href="/assets/imgs/icon/codact.png">
+  <link rel="apple-touch-icon" href="/assets/imgs/icon/codact.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/imgs/icon/codact.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/imgs/icon/codact.png">
 
   <style media="screen">
     /*! CSS Used from: https://www.freelancerepublik.com/assets/css/app.5cbb9c31.css */
@@ -673,56 +682,56 @@
 
     .crisp-client .crisp-1rjpbb7 .crisp-9dgo7z,
     .crisp-client .crisp-1rjpbb7 .crisp-9dgo7z * {
-      font-family: "Crisp Noto Sans Regular", sans-serif !important;
+      font-family: 'Montserrat', sans-serif !important;
     }
 
     .crisp-client .crisp-1rjpbb7 .crisp-9dgo7z :placeholder,
     .crisp-client .crisp-1rjpbb7 .crisp-9dgo7z:placeholder {
-      font-family: "Crisp Noto Sans Regular", sans-serif !important;
+      font-family: 'Montserrat', sans-serif !important;
     }
 
     .crisp-client .crisp-1rjpbb7 .crisp-9dgo7z :-moz-placeholder,
     .crisp-client .crisp-1rjpbb7 .crisp-9dgo7z:-moz-placeholder {
-      font-family: "Crisp Noto Sans Regular", sans-serif !important;
+      font-family: 'Montserrat', sans-serif !important;
     }
 
     .crisp-client .crisp-1rjpbb7 .crisp-9dgo7z ::-moz-placeholder,
     .crisp-client .crisp-1rjpbb7 .crisp-9dgo7z::-moz-placeholder {
-      font-family: "Crisp Noto Sans Regular", sans-serif !important;
+      font-family: 'Montserrat', sans-serif !important;
     }
 
     .crisp-client .crisp-1rjpbb7 .crisp-9dgo7z :-ms-input-placeholder,
     .crisp-client .crisp-1rjpbb7 .crisp-9dgo7z:-ms-input-placeholder {
-      font-family: "Crisp Noto Sans Regular", sans-serif !important;
+      font-family: 'Montserrat', sans-serif !important;
     }
 
     .crisp-client .crisp-1rjpbb7 .crisp-9dgo7z ::-webkit-input-placeholder,
     .crisp-client .crisp-1rjpbb7 .crisp-9dgo7z::-webkit-input-placeholder {
-      font-family: "Crisp Noto Sans Regular", sans-serif !important;
+      font-family: 'Montserrat', sans-serif !important;
     }
 
     .crisp-client .crisp-1rjpbb7 .crisp-13qutdl {
-      font-family: "Crisp Noto Sans Bold", sans-serif !important;
+      font-family: 'Montserrat', sans-serif !important;
     }
 
     .crisp-client .crisp-1rjpbb7 .crisp-13qutdl:placeholder {
-      font-family: "Crisp Noto Sans Bold", sans-serif !important;
+      font-family: 'Montserrat', sans-serif !important;
     }
 
     .crisp-client .crisp-1rjpbb7 .crisp-13qutdl:-moz-placeholder {
-      font-family: "Crisp Noto Sans Bold", sans-serif !important;
+      font-family: 'Montserrat', sans-serif !important;
     }
 
     .crisp-client .crisp-1rjpbb7 .crisp-13qutdl::-moz-placeholder {
-      font-family: "Crisp Noto Sans Bold", sans-serif !important;
+      font-family: 'Montserrat', sans-serif !important;
     }
 
     .crisp-client .crisp-1rjpbb7 .crisp-13qutdl:-ms-input-placeholder {
-      font-family: "Crisp Noto Sans Bold", sans-serif !important;
+      font-family: 'Montserrat', sans-serif !important;
     }
 
     .crisp-client .crisp-1rjpbb7 .crisp-13qutdl::-webkit-input-placeholder {
-      font-family: "Crisp Noto Sans Bold", sans-serif !important;
+      font-family: 'Montserrat', sans-serif !important;
     }
 
     @media print {
@@ -732,7 +741,7 @@
     }
 
     .crisp-client .crisp-1rjpbb7 {
-      font-family: "Crisp Noto Sans Regular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+      font-family: 'Montserrat', sans-serif
       font-size: 11px !important;
       position: relative !important;
     }
@@ -3329,7 +3338,7 @@
           <nav role="navigation" aria-label="main navigation" class="navbar has-black-background is-light rel">
             <div class="navbar-item is-hidden-touch centered-logo-container">
               <div class="logo">
-                <!----><img src="/assets/img/logo_frk_light.961436d7.svg" alt="FreelanceRepublik" class="logo">
+                <!----><img src="/assets/imgs/icon/logoc-ff.png" alt="FreelanceRepublik" class="logo">
                 <!---->
                 <!---->
               </div>

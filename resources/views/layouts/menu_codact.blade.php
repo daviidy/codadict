@@ -6,7 +6,17 @@
   <title></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/94491a0993.js" crossorigin="anonymous"></script>
+  <!-- ==============================================
+Favicons
+=============================================== -->
+<link rel="shortcut icon" href="/assets/imgs/icon/codact.png">
+<link rel="apple-touch-icon" href="/assets/imgs/icon/codact.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/imgs/icon/codact.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/imgs/icon/codact.png">
+
+
   <style media="screen">
     /*! CSS Used from: https://www.freelancerepublik.com/assets/css/chunk-vendors.ef702a6b.css */
     .fadeIn {
@@ -750,7 +760,7 @@
     #header .navbar .logo-mobile {
       position: absolute;
       top: 22px;
-      left: calc(50% - 18px);
+      left: calc(50% - 50px);
     }
 
     #header .navbar .centered-logo-container {
@@ -4309,7 +4319,7 @@
     <div data-v-62883d68="" id="header">
       <nav data-v-62883d68="" role="navigation" aria-label="main navigation" class="navbar rel">
         <div data-v-62883d68="" class="navbar-item is-hidden-touch centered-logo-container">
-          <div data-v-62883d68="" class="logo"><img src="/assets/img/logo_frk.4fcc6883.svg" alt="FreelanceRepublik" class="logo">
+          <div data-v-62883d68="" class="logo"><img src="/assets/imgs/icon/logoc-ff.png" alt="FreelanceRepublik" class="logo">
             <!---->
             <!---->
             <!---->
@@ -4321,7 +4331,7 @@
         <div data-v-62883d68="" class="logo logo-mobile is-hidden-desktop">
           <!---->
           <!---->
-          <!----><img src="/assets/img/logo_k.6c3d5afd.svg" alt="FreelanceRepublik" class="logo"></div><a data-v-62883d68="" class="is-hidden-desktop login-button frk-action-button-blue-inverted">ME CONNECTER</a>
+          <!----><img src="/assets/imgs/icon/codact.png" alt="codatict" class="logo"></div><a data-v-62883d68="" class="is-hidden-desktop login-button frk-action-button-blue-inverted">ME CONNECTER</a>
         <div data-v-62883d68="" class="navbar-menu">
           <div data-v-62883d68="" class="navbar-start"><a data-v-62883d68="" href="/freelance" class="navbar-item navbar-simple link is-hidden-desktop">VOUS ETES UN FREELANCE?</a><a data-v-62883d68=""
               class="navbar-item navbar-simple text-blue is-hidden-desktop">ME CONNECTER</a><a data-v-62883d68="" class="navbar-item navbar-simple bg-blue is-hidden-desktop frk-action-button-blue">M'INSCRIRE</a><a data-v-62883d68="" href="/"
