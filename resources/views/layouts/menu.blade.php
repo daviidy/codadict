@@ -1,4 +1,4 @@
-font-family: 'Montserrat', sans-serif<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
