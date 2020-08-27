@@ -1688,8 +1688,8 @@ Favicons
       -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .1);
       box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .1);
       border-radius: 20px;
-      padding-top: 67px;
-      padding-bottom: 56px;
+      padding-top: 0px;
+      padding-bottom: 0px;
       margin-top: -72px;
       overflow: hidden;
       min-height: 245px;
@@ -4333,11 +4333,11 @@ Favicons
           <!---->
           <!----><img src="/assets/imgs/icon/codact.png" alt="codatict" class="logo"></div><a data-v-62883d68="" class="is-hidden-desktop login-button frk-action-button-blue-inverted">ME CONNECTER</a>
         <div data-v-62883d68="" class="navbar-menu">
-          <div data-v-62883d68="" class="navbar-start"><a data-v-62883d68="" href="/freelance" class="navbar-item navbar-simple link is-hidden-desktop">VOUS ETES UN FREELANCE?</a><a data-v-62883d68=""
+          <div data-v-62883d68="" class="navbar-start"><!--a data-v-62883d68="" href="/freelance" class="navbar-item navbar-simple link is-hidden-desktop">VOUS ETES UN FREELANCE?</a--><a data-v-62883d68=""
               class="navbar-item navbar-simple text-blue is-hidden-desktop">ME CONNECTER</a><a data-v-62883d68="" class="navbar-item navbar-simple bg-blue is-hidden-desktop frk-action-button-blue">M'INSCRIRE</a><a data-v-62883d68="" href="/"
               class="navbar-item navbar-simple router-link-active">ACCUEIL</a><a data-v-62883d68="" href="/concept" class="navbar-item navbar-simple">CONCEPT</a><a data-v-62883d68="" href="/contact" class="navbar-item navbar-simple" id="contact"
               data-test="ContactLink">CONTACTEZ NOUS</a></div>
-          <div data-v-62883d68="" class="navbar-end is-hidden-touch"><a data-v-62883d68="" href="/freelance" class="frk-action-link mr-2">VOUS ETES UN FREELANCE?</a><a data-v-62883d68="" class="mr-1 frk-action-button-blue-inverted">ME
+          <div data-v-62883d68="" class="navbar-end is-hidden-touch"><!--a data-v-62883d68="" href="/freelance" class="frk-action-link mr-2">VOUS ETES UN FREELANCE?</a--><a data-v-62883d68="" class="mr-1 frk-action-button-blue-inverted">ME
               CONNECTER</a><a data-v-62883d68="" class="mr-2 frk-action-button-blue frk-has-arrow">M'INSCRIRE</a></div>
         </div>
       </nav>

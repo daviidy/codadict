@@ -23,32 +23,32 @@
         </div>
       </div>
       <div data-v-4e2a56e8="" data-wow-delay=".5s" class="companies frk-container wow fadeInUp" style="visibility: visible; animation-delay: 0.5s;">
-        <p data-v-4e2a56e8="">Nous avons déjà permis à des centaines d’entreprises de gagner un temps fou en réalisant éfficace leurs projets.</p>
+        <p data-v-4e2a56e8="">Nous avons déjà permis à des centaines d’entreprises de gagner un temps fou en réalisant de façon efficace leurs projets.</p>
         <div data-v-4e2a56e8="" class="logos">
-          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/img/Deezer@2x.e6611d3c.png" alt="logo deezer" class="deezer"></div>
-          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/img/Dashlane@2x.42af5354.png" alt="logo dashlane" class="dashlane"></div>
-          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/img/Manomano.bb02553a.png" alt="logo dashlane" class="dashlane"></div>
-          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/img/Netatmo@2x.2fda3ad4.png" alt="logo netatmo" class="netatmo"></div>
-          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/img/LeGuide@2x.17b2a21c.png" alt="logo leguide" class="leguide"></div>
+          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/imgs/commanya.jpg" alt="logo commanya" class="deezer"></div>
+          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/imgs/forscot.png" alt="logo forscot" class="dashlane"></div>
+          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/imgs/elavo.jpg" alt="logo elavoo" class="dashlane"></div>
+          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/imgs/nitshop-logo.jpg" alt="logo nitshop " class="netatmo"></div>
+          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/imgs/log.png" alt="logo regardsuds" class="leguide"></div>
         </div>
       </div>
       <div data-v-4e2a56e8="" data-wow-delay=".5s" class="usage frk-container wow fadeIn" style="visibility: visible; animation-delay: 0.5s;">
         <h2 data-v-4e2a56e8="">Comment ca marche ?</h2>
         <div data-v-4e2a56e8="" class="columns">
           <div data-v-4e2a56e8="" class="column first">
-            <div data-v-4e2a56e8="" class="frk-content"><img data-v-4e2a56e8="" src="/assets/img/documents-ui@1x.67e6c306.svg" alt="Profil">
+            <div data-v-4e2a56e8="" class="frk-content"><img data-v-4e2a56e8="" src="/assets/imgs/cm3.jpg" alt="Profil">
               <h3 data-v-4e2a56e8="">Décrivez le projet</h3>
               <p data-v-4e2a56e8="">Un talent expert dédié vous contacte dans les 24h pour affiner votre recherche</p>
             </div>
           </div>
           <div data-v-4e2a56e8="" class="column second">
-            <div data-v-4e2a56e8="" class="frk-content"><img data-v-4e2a56e8="" src="/assets/img/nucleus-atom-4.e46b073d.svg" alt="Sélection">
-              <h3 data-v-4e2a56e8="">Nous vous contactons dans les 24h qui suit votre inscription</h3>
-              <p data-v-4e2a56e8="">Un de nos agents vous contactera pour vous poser des question afin de déterminer les bésoins implicite et explicidte de votre projet. </p>
+            <div data-v-4e2a56e8="" class="frk-content"><img data-v-4e2a56e8="" src="/assets/imgs/cm1.jpg" alt="Sélection">
+              <h3 data-v-4e2a56e8="">Nous vous contactons dans les 24h qui suivent votre inscription.</h3>
+              <p data-v-4e2a56e8="">Un de nos agents vous contactera pour vous poser des questions afin de déterminer les besoins implicites et explicites de votre projet.</p>
             </div>
           </div>
           <div data-v-4e2a56e8="" class="column third">
-            <div data-v-4e2a56e8="" class="frk-content"><img data-v-4e2a56e8="" src="/assets/img/people-search@1x.8f556df5.svg" alt="Rencontre">
+            <div data-v-4e2a56e8="" class="frk-content"><img data-v-4e2a56e8="" src="/assets/imgs/cm2.jpg" alt="Rencontre">
               <h3 data-v-4e2a56e8="">Rencontre avec l'équipe</h3>
               <p data-v-4e2a56e8="">Rencontrez librement notre équipe en ligne ou en agence.</p>
             </div>
