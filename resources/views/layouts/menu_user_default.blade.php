@@ -113,11 +113,11 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="/users/myproject">
+                                    <a href="{{route('projects.index')}}">
                                         <i class="far fa-file"></i>Mes projets</a>
                                 </li>
                                 <li>
-                                    <a href="/users/createproject">
+                                    <a href="{{route('projects.create')}}">
                                         <i class="fas fa-plus-circle"></i>Creer</a>
                                 </li>
                                 <li>
