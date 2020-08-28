@@ -26,8 +26,8 @@ Route::get('/codact', function () {
 });
 
 
-Route::get('/users/myproject', function () {
-    return view('/users/user_default/myProject');
+Route::get('/log', function () {
+    return view('/login');
 });
 
 Route::get('/users/createproject', function () {

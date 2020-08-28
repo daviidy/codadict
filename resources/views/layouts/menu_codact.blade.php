@@ -5,6 +5,18 @@
   <meta charset="utf-8">
   <title></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/94491a0993.js" crossorigin="anonymous"></script>
+  <!-- ==============================================
+Favicons
+=============================================== -->
+<link rel="shortcut icon" href="/assets/imgs/icon/codact.png">
+<link rel="apple-touch-icon" href="/assets/imgs/icon/codact.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/imgs/icon/codact.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/imgs/icon/codact.png">
+
+
   <style media="screen">
     /*! CSS Used from: https://www.freelancerepublik.com/assets/css/chunk-vendors.ef702a6b.css */
     .fadeIn {
@@ -75,7 +87,7 @@
 
     p[data-v-d722a68c] {
       color: #b2b2b2;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.29rem;
       line-height: 22px;
     }
@@ -97,7 +109,7 @@
 
     .footer .title[data-v-d722a68c] {
       color: #fafafa;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .85rem;
       font-weight: 900;
       line-height: 15px;
@@ -114,7 +126,7 @@
       max-width: 25vw;
       opacity: .7;
       color: #fff;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1rem;
       line-height: 28px;
     }
@@ -122,7 +134,7 @@
     .footer a[data-v-d722a68c],
     .footer p[data-v-d722a68c] {
       color: #7e8082;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1rem;
       line-height: 28px;
       text-align: left !important;
@@ -136,7 +148,7 @@
     .footer small a[data-v-d722a68c] {
       margin-top: 45px;
       color: #7e8082;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .85rem;
       line-height: 20px;
       text-align: center;
@@ -209,11 +221,11 @@
     #app.frk-normalizer,
     body {
       color: #4a4a4a;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
     }
 
     .title {
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       color: #363738;
     }
 
@@ -264,7 +276,7 @@
     }
 
     body {
-      font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-family: 'Montserrat', sans-serif;
     }
 
     body {
@@ -528,7 +540,7 @@
     .frk-action-button-blue {
       display: inline-block;
       border-radius: 6px;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .85rem;
       font-weight: 900;
       line-height: 15px;
@@ -583,7 +595,7 @@
     .frk-action-button-blue-inverted {
       display: inline-block;
       border-radius: 6px;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .85rem;
       font-weight: 900;
       line-height: 15px;
@@ -640,7 +652,7 @@
     .frk-action-link {
       display: inline-block;
       color: #363738;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .85rem;
       font-weight: 700;
       line-height: 13px;
@@ -696,7 +708,7 @@
 
     #header .navbar .navbar-simple {
       color: #363738;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .85rem;
       font-weight: 700;
       line-height: 13px;
@@ -748,7 +760,7 @@
     #header .navbar .logo-mobile {
       position: absolute;
       top: 22px;
-      left: calc(50% - 18px);
+      left: calc(50% - 50px);
     }
 
     #header .navbar .centered-logo-container {
@@ -1442,7 +1454,7 @@
     /*! CSS Used from: https://www.freelancerepublik.com/assets/css/chunk-d40965cc.99cff68c.css */
     h3[data-v-270f5fc6] {
       color: #363738;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.29rem;
       font-weight: 500;
       line-height: 25px;
@@ -1517,7 +1529,7 @@
 
     h1[data-v-4e2a56e8] {
       color: #363738;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 3.21rem;
       font-weight: 500;
       line-height: 50px;
@@ -1535,7 +1547,7 @@
 
     h2[data-v-4e2a56e8] {
       color: #363738;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.57rem;
       font-weight: 500;
       line-height: 41px;
@@ -1551,7 +1563,7 @@
 
     h3[data-v-4e2a56e8] {
       color: #363738;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.29rem;
       font-weight: 500;
       line-height: 25px;
@@ -1567,7 +1579,7 @@
 
     p[data-v-4e2a56e8] {
       color: #b2b2b2;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.29rem;
       line-height: 22px;
     }
@@ -1676,8 +1688,8 @@
       -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .1);
       box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .1);
       border-radius: 20px;
-      padding-top: 67px;
-      padding-bottom: 56px;
+      padding-top: 0px;
+      padding-bottom: 0px;
       margin-top: -72px;
       overflow: hidden;
       min-height: 245px;
@@ -1691,7 +1703,7 @@
 
     .companies p[data-v-4e2a56e8] {
       color: #363738;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.29rem;
       font-weight: 500;
       line-height: 23px;
@@ -1982,7 +1994,7 @@
 
     .promise .headline[data-v-4e2a56e8] {
       color: #128dce;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .85rem;
       font-weight: 700;
       line-height: 15px;
@@ -2057,7 +2069,7 @@
 
     .testimony .text[data-v-4e2a56e8] {
       color: #fafafa;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.29rem;
       font-weight: 500;
       line-height: 32px;
@@ -2070,7 +2082,7 @@
       bottom: 86px;
       left: 70vw;
       color: #fafafa;
-      font-family: Circular Std, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.29rem;
       font-weight: 500;
       line-height: 32px;
@@ -2081,7 +2093,7 @@
       bottom: 67px;
       left: 70vw;
       color: #7e8082;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1rem;
       line-height: 22px;
     }
@@ -2091,7 +2103,7 @@
       bottom: 45px;
       left: 70vw;
       color: #7e8082;
-      font-family: Open Sans, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1rem;
       line-height: 22px;
     }
@@ -4307,7 +4319,7 @@
     <div data-v-62883d68="" id="header">
       <nav data-v-62883d68="" role="navigation" aria-label="main navigation" class="navbar rel">
         <div data-v-62883d68="" class="navbar-item is-hidden-touch centered-logo-container">
-          <div data-v-62883d68="" class="logo"><img src="/assets/img/logo_frk.4fcc6883.svg" alt="FreelanceRepublik" class="logo">
+          <div data-v-62883d68="" class="logo"><img src="/assets/imgs/icon/logoc-ff.png" alt="FreelanceRepublik" class="logo">
             <!---->
             <!---->
             <!---->
@@ -4319,13 +4331,13 @@
         <div data-v-62883d68="" class="logo logo-mobile is-hidden-desktop">
           <!---->
           <!---->
-          <!----><img src="/assets/img/logo_k.6c3d5afd.svg" alt="FreelanceRepublik" class="logo"></div><a data-v-62883d68="" class="is-hidden-desktop login-button frk-action-button-blue-inverted">ME CONNECTER</a>
+          <!----><img src="/assets/imgs/icon/codact.png" alt="codatict" class="logo"></div><a data-v-62883d68="" class="is-hidden-desktop login-button frk-action-button-blue-inverted">ME CONNECTER</a>
         <div data-v-62883d68="" class="navbar-menu">
-          <div data-v-62883d68="" class="navbar-start"><a data-v-62883d68="" href="/freelance" class="navbar-item navbar-simple link is-hidden-desktop">VOUS ETES UN FREELANCE?</a><a data-v-62883d68=""
+          <div data-v-62883d68="" class="navbar-start"><!--a data-v-62883d68="" href="/freelance" class="navbar-item navbar-simple link is-hidden-desktop">VOUS ETES UN FREELANCE?</a--><a data-v-62883d68=""
               class="navbar-item navbar-simple text-blue is-hidden-desktop">ME CONNECTER</a><a data-v-62883d68="" class="navbar-item navbar-simple bg-blue is-hidden-desktop frk-action-button-blue">M'INSCRIRE</a><a data-v-62883d68="" href="/"
               class="navbar-item navbar-simple router-link-active">ACCUEIL</a><a data-v-62883d68="" href="/concept" class="navbar-item navbar-simple">CONCEPT</a><a data-v-62883d68="" href="/contact" class="navbar-item navbar-simple" id="contact"
               data-test="ContactLink">CONTACTEZ NOUS</a></div>
-          <div data-v-62883d68="" class="navbar-end is-hidden-touch"><a data-v-62883d68="" href="/freelance" class="frk-action-link mr-2">VOUS ETES UN FREELANCE?</a><a data-v-62883d68="" class="mr-1 frk-action-button-blue-inverted">ME
+          <div data-v-62883d68="" class="navbar-end is-hidden-touch"><!--a data-v-62883d68="" href="/freelance" class="frk-action-link mr-2">VOUS ETES UN FREELANCE?</a--><a data-v-62883d68="" class="mr-1 frk-action-button-blue-inverted">ME
               CONNECTER</a><a data-v-62883d68="" class="mr-2 frk-action-button-blue frk-has-arrow">M'INSCRIRE</a></div>
         </div>
       </nav>

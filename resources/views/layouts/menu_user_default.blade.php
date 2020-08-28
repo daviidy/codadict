@@ -6,19 +6,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/94491a0993.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/4.4.7/css/fileinput.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css"/>
 
     <!-- Title Page-->
     <title></title>
 
     <!-- Fontfaces CSS-->
     <link href="/assets/css//font-face.css" rel="stylesheet" media="all">
-    <link href="/assets/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link href="/assets/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="/assets/vendor/font-awesome-4.7/css/font-awesome.min.cs" rel="stylesheet" media="all">
+    <link href="/assets/vendor/font-awesome-5/css/fontawesome-all.min.ss" rel="stylesheet" media="all">
     <link href="/assets/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <!-- ==============================================
+    Favicons
+    =============================================== -->
+    <link rel="shortcut icon" href="/assets/imgs/icon/codact.png">
+    <link rel="apple-touch-icon" href="/assets/imgs/icon/codact.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/imgs/icon/codact.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/imgs/icon/codact.png">
 
     <!-- Bootstrap CSS-->
 
@@ -42,7 +54,7 @@
         <aside class="menu-sidebar2">
             <div class="logo">
                 <a href="#">
-                    <img src="images/icon/logo-white.png" alt="Cool Admin" />
+                    <img src="/assets/imgs/icon/logoc.png" alt="Cool Admin" />
                 </a>
             </div>
             <div class="menu-sidebar2__content js-scrollbar1">
@@ -51,12 +63,17 @@
                         <img src="/assets/imgs/icon/avatar-01.jpg" alt="John Doe" />
                     </div>
                     <h4 class="name">john doe</h4>
-                    <a href="#">Sign out</a>
+                    <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                              document.getElementById('logout-form').submit();"><i class="fas fa-sign-out-alt"></i>
+                              Déconnexion
+                              <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                  @csrf
+                              </form></a>
                 </div>
                 <nav class="navbar-sidebar2">
                     <ul class="list-unstyled navbar__list">
                         <li class="active has-sub">
-                            <a class="js-arrow" href="/users/default">
+                            <a class="js-arrow" href="/home">
                                 <i class="fas fa-tachometer-alt"></i>Tableau de bord
                                 <span class="arrow">
                                     <i class="fas fa-angle-down"></i>
@@ -96,11 +113,11 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="/users/myproject">
+                                    <a href="{{route('projects.index')}}">
                                         <i class="far fa-file"></i>Mes projets</a>
                                 </li>
                                 <li>
-                                    <a href="/users/createproject">
+                                    <a href="{{route('projects.create')}}">
                                         <i class="fas fa-plus-circle"></i>Creer</a>
                                 </li>
                                 <li>
@@ -115,7 +132,7 @@
                         </li>
 
                         <li>
-                            <a href="/users/setting">
+                            <a href="/users/edit">
                                 <i class="fas fa-cog"></i>Paramètre</a>
                         </li>
                         <!--li class="has-sub">
@@ -208,7 +225,7 @@
                         <div class="header-wrap2">
                             <div class="logo d-block d-lg-none">
                                 <a href="#">
-                                    <img src="images/icon/logo-white.png" alt="CoolAdmin" />
+                                    <img src="/assets/imgs/icon/logoc.png" alt="CoolAdmin" />
                                 </a>
                             </div>
                             <div class="header-button2">
@@ -279,7 +296,7 @@
                                                 <i class="zmdi zmdi-money-box"></i>Billing</a>
                                         </div>
                                     </div>
-                                    <div class="account-dropdown__body">
+                                    <!--div class="account-dropdown__body">
                                         <div class="account-dropdown__item">
                                             <a href="#">
                                                 <i class="zmdi zmdi-globe"></i>Language</a>
@@ -296,7 +313,7 @@
                                             <a href="#">
                                                 <i class="zmdi zmdi-notifications"></i>Notifications</a>
                                         </div>
-                                    </div>
+                                    </div-->
                                 </div>
                             </div>
                         </div>
@@ -306,27 +323,32 @@
             <aside class="menu-sidebar2 js-right-sidebar d-block d-lg-none">
                 <div class="logo">
                     <a href="#">
-                        <img src="images/icon/logo-white.png" alt="Cool Admin" />
+                        <img src="/assets/imgs/icon/logoc.png" alt="Cool Admin" />
                     </a>
                 </div>
                 <div class="menu-sidebar2__content js-scrollbar2">
                     <div class="account2">
                         <div class="image img-cir img-120">
-                            <img src="images/icon/avatar-big-01.jpg" alt="John Doe" />
+                            <img src="/assets/imgs/icon/avatar-01.jpg" alt="John Doe" />
                         </div>
                         <h4 class="name">john doe</h4>
-                        <a href="#">Sign out</a>
+                        <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                  document.getElementById('logout-form').submit();"><i class="fas fa-sign-out-alt"></i>
+                                  Déconnexion
+                                  <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                      @csrf
+                                  </form></a>
                     </div>
                     <nav class="navbar-sidebar2">
                         <ul class="list-unstyled navbar__list">
                             <li class="active has-sub">
-                                <a class="js-arrow" href="#">
-                                    <i class="fas fa-tachometer-alt"></i>Dashboard
-                                    <span class="arrow">
+                                <a class="js-arrow" href="/home">
+                                    <i class="fas fa-tachometer-alt"></i>Tableau de bord
+                                    <!--span class="arrow">
                                         <i class="fas fa-angle-down"></i>
-                                    </span>
+                                    </span-->
                                 </a>
-                                <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <!--ul class="list-unstyled navbar__sub-list js-sub-list">
                                     <li>
                                         <a href="index.html">
                                             <i class="fas fa-tachometer-alt"></i>Dashboard 1</a>
@@ -343,118 +365,38 @@
                                         <a href="index4.html">
                                             <i class="fas fa-tachometer-alt"></i>Dashboard 4</a>
                                     </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="inbox.html">
-                                    <i class="fas fa-chart-bar"></i>Inbox</a>
-                                <span class="inbox-num">3</span>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fas fa-shopping-basket"></i>eCommerce</a>
+                                </ul-->
                             </li>
                             <li class="has-sub">
                                 <a class="js-arrow" href="#">
-                                    <i class="fas fa-trophy"></i>Features
+                                    <i class="fas fa-trophy"></i>Projet
                                     <span class="arrow">
                                         <i class="fas fa-angle-down"></i>
                                     </span>
                                 </a>
                                 <ul class="list-unstyled navbar__sub-list js-sub-list">
                                     <li>
-                                        <a href="table.html">
-                                            <i class="fas fa-table"></i>Tables</a>
+                                        <a href="/users/myproject">
+                                            <i class="far fa-file"></i>Mes projets</a>
                                     </li>
                                     <li>
-                                        <a href="form.html">
-                                            <i class="far fa-check-square"></i>Forms</a>
+                                        <a href="/users/createproject">
+                                            <i class="fas fa-plus-circle"></i>Creer</a>
                                     </li>
                                     <li>
-                                        <a href="calendar.html">
-                                            <i class="fas fa-calendar-alt"></i>Calendar</a>
+                                        <a href="/users/editproject">
+                                            <i class="fas fa-pen-square"></i>Modifier mon projet</a>
                                     </li>
-                                    <li>
+                                    <!--li>
                                         <a href="map.html">
                                             <i class="fas fa-map-marker-alt"></i>Maps</a>
-                                    </li>
+                                    </li-->
                                 </ul>
                             </li>
-                            <li class="has-sub">
-                                <a class="js-arrow" href="#">
-                                    <i class="fas fa-copy"></i>Pages
-                                    <span class="arrow">
-                                        <i class="fas fa-angle-down"></i>
-                                    </span>
-                                </a>
-                                <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                    <li>
-                                        <a href="login.html">
-                                            <i class="fas fa-sign-in-alt"></i>Login</a>
-                                    </li>
-                                    <li>
-                                        <a href="register.html">
-                                            <i class="fas fa-user"></i>Register</a>
-                                    </li>
-                                    <li>
-                                        <a href="forget-pass.html">
-                                            <i class="fas fa-unlock-alt"></i>Forget Password</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="has-sub">
-                                <a class="js-arrow" href="#">
-                                    <i class="fas fa-desktop"></i>UI Elements
-                                    <span class="arrow">
-                                        <i class="fas fa-angle-down"></i>
-                                    </span>
-                                </a>
-                                <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                    <li>
-                                        <a href="button.html">
-                                            <i class="fab fa-flickr"></i>Button</a>
-                                    </li>
-                                    <li>
-                                        <a href="badge.html">
-                                            <i class="fas fa-comment-alt"></i>Badges</a>
-                                    </li>
-                                    <li>
-                                        <a href="tab.html">
-                                            <i class="far fa-window-maximize"></i>Tabs</a>
-                                    </li>
-                                    <li>
-                                        <a href="card.html">
-                                            <i class="far fa-id-card"></i>Cards</a>
-                                    </li>
-                                    <li>
-                                        <a href="alert.html">
-                                            <i class="far fa-bell"></i>Alerts</a>
-                                    </li>
-                                    <li>
-                                        <a href="progress-bar.html">
-                                            <i class="fas fa-tasks"></i>Progress Bars</a>
-                                    </li>
-                                    <li>
-                                        <a href="modal.html">
-                                            <i class="far fa-window-restore"></i>Modals</a>
-                                    </li>
-                                    <li>
-                                        <a href="switch.html">
-                                            <i class="fas fa-toggle-on"></i>Switchs</a>
-                                    </li>
-                                    <li>
-                                        <a href="grid.html">
-                                            <i class="fas fa-th-large"></i>Grids</a>
-                                    </li>
-                                    <li>
-                                        <a href="fontawesome.html">
-                                            <i class="fab fa-font-awesome"></i>FontAwesome</a>
-                                    </li>
-                                    <li>
-                                        <a href="typo.html">
-                                            <i class="fas fa-font"></i>Typography</a>
-                                    </li>
-                                </ul>
+
+                            <li>
+                                <a href="/users/edit">
+                                    <i class="fas fa-cog"></i>Paramètre</a>
                             </li>
                         </ul>
                     </nav>

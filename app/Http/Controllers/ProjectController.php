@@ -20,7 +20,7 @@ class ProjectController extends Controller
     {
         if (Auth::check()) {
             $projects = Project::orderby('id', 'asc')->paginate(30);
-            return view('projects.default.index', ['projects' => $projects]);
+            return view('projects.index', ['projects' => $projects]);
         }
         else {
             return redirect('home');
@@ -35,7 +35,7 @@ class ProjectController extends Controller
     public function create()
     {
         if (Auth::check()) {
-            return view('projects.default.create');
+            return view('projects.create');
         }
         else {
             return redirect('home');

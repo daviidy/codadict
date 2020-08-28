@@ -11,9 +11,8 @@
       <div data-v-4e2a56e8="" class="cover">
         <div data-v-4e2a56e8="" class="frk-container line inverted">
           <div data-v-4e2a56e8="" class="line-item speech">
-            <h1 data-v-4e2a56e8="" data-test="CompanyHomeHeading">Recevez les 3 meilleurs freelances tech’ pour votre mission</h1>
-            <p data-v-4e2a56e8="">Ne perdez plus de temps à faire le tri. 90% de vos entretiens se transforment en embauche.</p><a data-v-4e2a56e8="" class="frk-action-button-blue frk-has-arrow" data-test="CompanyFirstUseButton">OBTENEZ UNE
-              SELECTION</a>
+            <h1 data-v-4e2a56e8="" data-test="CompanyHomeHeading">Recevez la meilleur aide possible pour votre projet.</h1>
+            <p data-v-4e2a56e8="">Ne perdez plus de temps à faire le tri. </p><a data-v-4e2a56e8="" class="frk-action-button-blue frk-has-arrow" data-test="CompanyFirstUseButton">JE VEUX REALISER UN PROJET</a>
           </div>
           <div data-v-4e2a56e8="" class="line-item">
             <div data-v-4e2a56e8="" class="illu is-hidden-desktop"></div>
@@ -24,51 +23,51 @@
         </div>
       </div>
       <div data-v-4e2a56e8="" data-wow-delay=".5s" class="companies frk-container wow fadeInUp" style="visibility: visible; animation-delay: 0.5s;">
-        <p data-v-4e2a56e8="">Nous avons déjà permis à des centaines d’entreprises de gagner un temps fou en ciblant directement les meilleurs.</p>
+        <p data-v-4e2a56e8="">Nous avons déjà permis à des centaines d’entreprises de gagner un temps fou en réalisant de façon efficace leurs projets.</p>
         <div data-v-4e2a56e8="" class="logos">
-          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/img/Deezer@2x.e6611d3c.png" alt="logo deezer" class="deezer"></div>
-          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/img/Dashlane@2x.42af5354.png" alt="logo dashlane" class="dashlane"></div>
-          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/img/Manomano.bb02553a.png" alt="logo dashlane" class="dashlane"></div>
-          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/img/Netatmo@2x.2fda3ad4.png" alt="logo netatmo" class="netatmo"></div>
-          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/img/LeGuide@2x.17b2a21c.png" alt="logo leguide" class="leguide"></div>
+          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/imgs/commanya.jpg" alt="logo commanya" class="deezer"></div>
+          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/imgs/forscot.png" alt="logo forscot" class="dashlane"></div>
+          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/imgs/elavo.jpg" alt="logo elavoo" class="dashlane"></div>
+          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/imgs/nitshop-logo.jpg" alt="logo nitshop " class="netatmo"></div>
+          <div data-v-4e2a56e8="" class="logo"><img data-v-4e2a56e8="" src="/assets/imgs/log.png" alt="logo regardsuds" class="leguide"></div>
         </div>
       </div>
       <div data-v-4e2a56e8="" data-wow-delay=".5s" class="usage frk-container wow fadeIn" style="visibility: visible; animation-delay: 0.5s;">
         <h2 data-v-4e2a56e8="">Comment ca marche ?</h2>
         <div data-v-4e2a56e8="" class="columns">
           <div data-v-4e2a56e8="" class="column first">
-            <div data-v-4e2a56e8="" class="frk-content"><img data-v-4e2a56e8="" src="/assets/img/documents-ui@1x.67e6c306.svg" alt="Profil">
-              <h3 data-v-4e2a56e8="">Décrivez le profil et la mission</h3>
+            <div data-v-4e2a56e8="" class="frk-content"><img data-v-4e2a56e8="" src="/assets/imgs/cm3.jpg" alt="Profil">
+              <h3 data-v-4e2a56e8="">Décrivez le projet</h3>
               <p data-v-4e2a56e8="">Un talent expert dédié vous contacte dans les 24h pour affiner votre recherche</p>
             </div>
           </div>
           <div data-v-4e2a56e8="" class="column second">
-            <div data-v-4e2a56e8="" class="frk-content"><img data-v-4e2a56e8="" src="/assets/img/nucleus-atom-4.e46b073d.svg" alt="Sélection">
-              <h3 data-v-4e2a56e8="">Pré - sélection intelligente</h3>
-              <p data-v-4e2a56e8="">Notre solution associe intelligence artificielle et expertise humaine, pour identifier les 3 profils les mieux taillés.</p>
+            <div data-v-4e2a56e8="" class="frk-content"><img data-v-4e2a56e8="" src="/assets/imgs/cm1.jpg" alt="Sélection">
+              <h3 data-v-4e2a56e8="">Nous vous contactons dans les 24h qui suivent votre inscription.</h3>
+              <p data-v-4e2a56e8="">Un de nos agents vous contactera pour vous poser des questions afin de déterminer les besoins implicites et explicites de votre projet.</p>
             </div>
           </div>
           <div data-v-4e2a56e8="" class="column third">
-            <div data-v-4e2a56e8="" class="frk-content"><img data-v-4e2a56e8="" src="/assets/img/people-search@1x.8f556df5.svg" alt="Rencontre">
-              <h3 data-v-4e2a56e8="">Rencontre des candidats</h3>
-              <p data-v-4e2a56e8="">Rencontrez librement les candidats. 90% de vos entretiens se transforment en embauches</p>
+            <div data-v-4e2a56e8="" class="frk-content"><img data-v-4e2a56e8="" src="/assets/imgs/cm2.jpg" alt="Rencontre">
+              <h3 data-v-4e2a56e8="">Rencontre avec l'équipe</h3>
+              <p data-v-4e2a56e8="">Rencontrez librement notre équipe en ligne ou en agence.</p>
             </div>
           </div>
         </div>
-        <div data-v-4e2a56e8="" class="frk-button is-hidden-touch"><a data-v-4e2a56e8="" class="frk-action-button-blue frk-has-arrow">PROPOSEZ MOI 3 CANDIDATS</a></div>
+        <div data-v-4e2a56e8="" class="frk-button is-hidden-touch"><a data-v-4e2a56e8="" class="frk-action-button-blue frk-has-arrow">JE VEUX REALISER UN PROJET</a></div>
       </div>
-      <div data-v-4e2a56e8="" class="price wow fadeIn" style="visibility: visible;">
+      <!--div data-v-4e2a56e8="" class="price wow fadeIn" style="visibility: visible;">
         <div data-v-4e2a56e8="" class="frk-container price-container">
           <h2 data-v-4e2a56e8="">Combien ça coûte ?</h2>
           <p data-v-4e2a56e8="">Votre inscription est entièrement gratuite, il n’y a aucun coût d’abonnement, et vous ne payez qu’en cas de succès du recrutement !</p>
           <div data-v-4e2a56e8="" class="frk-button"><a data-v-4e2a56e8="" class="frk-action-button-blue-inverted frk-has-arrow">OBTENEZ UNE SELECTION</a></div>
         </div>
-      </div>
+      </div-->
       <div data-v-4e2a56e8="" class="promise">
         <div data-v-4e2a56e8="" class="line first">
           <div data-v-4e2a56e8="" class="line-item laptop illustration rel wow fadeIn" style="visibility: visible;"></div>
           <div data-v-4e2a56e8="" data-wow-delay=".5s" class="line-item mission wow fadeIn" style="visibility: visible; animation-delay: 0.5s;">
-            <p data-v-4e2a56e8="" class="headline">NOTRE PROMESSE REPUBLIKAINE</p>
+            <p data-v-4e2a56e8="" class="headline">NOTRE PROMESSE</p>
             <h2 data-v-4e2a56e8="">Nos freelances tech sont hautement qualifiés !</h2>
             <h3 data-v-4e2a56e8="">Vous êtes très exigeant, nous aussi.</h3>
             <p data-v-4e2a56e8="">Chaque freelance de notre réseau est passé par une phase de sélection extrêmement rigoureuse. Nos Talent Experts ont doublement vérifié leur niveau de compétences techniques, leurs références,
@@ -78,7 +77,7 @@
         </div>
         <div data-v-4e2a56e8="" class="line second inverted">
           <div data-v-4e2a56e8="" data-wow-delay=".5s" class="line-item administrative wow fadeIn" style="visibility: visible; animation-delay: 0.5s;">
-            <p data-v-4e2a56e8="" class="headline">NOTRE PROMESSE REPUBLIKAINE</p>
+            <p data-v-4e2a56e8="" class="headline">NOTRE PROMESSE</p>
             <h2 data-v-4e2a56e8="">Nous vous faisons gagner un temps fou</h2>
             <h3 data-v-4e2a56e8="">Stop aux recherches interminables.</h3>
             <p data-v-4e2a56e8="">Un Talent Expert dédié étudie tous les aspects de votre demande et s’appuie sur nos outils de data analyse pour vous dénicher directement les 3 profils les plus adaptés.<br data-v-4e2a56e8=""><br
@@ -86,10 +85,10 @@
           </div>
           <div data-v-4e2a56e8="" class="line-item graphic-tablet illustration wow fadeIn" style="visibility: visible;"></div>
         </div>
-        <div data-v-4e2a56e8="" class="line third">
+        <!--div data-v-4e2a56e8="" class="line third">
           <div data-v-4e2a56e8="" class="line-item convertible-tablet illustration wow fadeIn" style="visibility: visible;"></div>
           <div data-v-4e2a56e8="" data-wow-delay=".5s" class="line-item free wow fadeIn" style="visibility: visible; animation-delay: 0.5s;">
-            <p data-v-4e2a56e8="" class="headline">NOTRE PROMESSE REPUBLIKAINE</p>
+            <p data-v-4e2a56e8="" class="headline">NOTRE PROMESSE</p>
             <h2 data-v-4e2a56e8="">Nous gérons l’administratif</h2>
             <h3 data-v-4e2a56e8="">Concentrez-vous vraiment sur l’essentiel</h3>
             <p data-v-4e2a56e8="">FreelanceRepublik prend en charge toutes les vérifications concernant le statut légal des indépendants, et gère l’ensemble de la logistique contractuelle ainsi que la facturation.<br data-v-4e2a56e8=""><br
@@ -98,15 +97,15 @@
         </div>
         <div data-v-4e2a56e8="" class="line fourth inverted">
           <div data-v-4e2a56e8="" data-wow-delay=".5s" class="line-item administrative wow fadeIn" style="visibility: visible; animation-delay: 0.5s;">
-            <p data-v-4e2a56e8="" class="headline">NOTRE PROMESSE REPUBLIKAINE</p>
+            <p data-v-4e2a56e8="" class="headline">NOTRE PROMESSE</p>
             <h2 data-v-4e2a56e8="">Nous protégeons vos droits</h2>
             <h3 data-v-4e2a56e8="">Avancez l’esprit tranquille.</h3>
             <p data-v-4e2a56e8="">Ne prenez aucun risque pour votre entreprise. Nous encadrons la propriété intellectuelle des travaux réalisés, et éliminons tous les risques liés à l’emploi de freelances.</p>
           </div>
           <div data-v-4e2a56e8="" class="line-item graphic-tablet illustration wow fadeIn" style="visibility: visible;"></div>
-        </div>
+        </div-->
       </div>
-      <div data-v-4e2a56e8="" class="testimony wow fadeIn" style="visibility: visible;">
+      <!--div data-v-4e2a56e8="" class="testimony wow fadeIn" style="visibility: visible;">
         <p data-v-4e2a56e8="" class="text">« Grace à une connaissance pointue du marché et un process simple et transparent, Freelancerepublik nous a permis de trouver rapidement le talent que nous cherchions.
           A l’écoute et disponible, l‘équipe est sympa et la qualité du réseau de freelance avérée »</p>
         <div data-v-4e2a56e8="" class="author">Eric Devianne</div>
@@ -125,11 +124,11 @@
             data-v-270f5fc6="" href="https://www.journaldunet.com/management/ressources-humaines/1440009-jobboards-pour-freelances-lequel-est-fait-pour-vous/" title="Journal du Net" target="_blank" rel="noopener noreferrer"><img
               data-v-270f5fc6="" alt="Journal du Net" src="/assets/img/jdn.8198c002.png"></a><a data-v-270f5fc6="" href="https://www.maddyness.com/2019/03/13/maddyhelp-freelances-startups/" title="Maddyness" target="_blank"
             rel="noopener noreferrer"><img data-v-270f5fc6="" alt="Maddyness" src="/assets/img/maddyness.aef68214.png"></a></div>
-      </section>
-      <div data-v-4e2a56e8="" class="actions wow fadeIn" style="visibility: visible;"><img data-v-4e2a56e8="" src="/assets/img/Stones@2x.347920ff.png" alt="rock" class="rock">
-        <h2 data-v-4e2a56e8="">Obtenez vite les 3 meilleurs profils tech pour votre mission !</h2>
+      </section-->
+      <div data-v-4e2a56e8="" class="actions wow fadeIn" style="visibility: visible;"><!--img data-v-4e2a56e8="" src="/assets/img/Stones@2x.347920ff.png" alt="rock" class="rock"-->
+        <h2 data-v-4e2a56e8="">Obtenez vite de l'aide pour votre projet</h2>
         <div data-v-4e2a56e8="" class="frk-button"><a data-v-4e2a56e8="" class="frk-action-button-blue frk-has-arrow">FAIRE UNE DEMANDE</a></div>
-        <div data-v-4e2a56e8="" class="frk-link"><a data-v-4e2a56e8="" href="/freelance" class="frk-action-link">VOUS ETES FREELANCE TECH?</a></div>
+        <!--div data-v-4e2a56e8="" class="frk-link"><a data-v-4e2a56e8="" href="/freelance" class="frk-action-link">VOUS ETES FREELANCE TECH?</a></div-->
       </div>
     </div>
   </div>
