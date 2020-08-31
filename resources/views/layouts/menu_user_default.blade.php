@@ -53,7 +53,7 @@
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar2">
             <div class="logo">
-                <a href="#">
+                <a href="/">
                     <img src="/assets/imgs/icon/logoc.png" alt="Cool Admin" />
                 </a>
             </div>
@@ -63,7 +63,7 @@
                         <img src="/assets/imgs/icon/avatar-01.jpg" alt="John Doe" />
                     </div>
                     <h4 class="name">john doe</h4>
-                    <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                    <a href="#" onclick="event.preventDefault();
                               document.getElementById('logout-form').submit();"><i class="fas fa-sign-out-alt"></i>
                               Déconnexion
                               <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -75,9 +75,9 @@
                         <li class="active has-sub">
                             <a class="js-arrow" href="/home">
                                 <i class="fas fa-tachometer-alt"></i>Tableau de bord
-                                <span class="arrow">
+                                <!--span class="arrow">
                                     <i class="fas fa-angle-down"></i>
-                                </span>
+                                </span-->
                             </a>
                             <!--ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
