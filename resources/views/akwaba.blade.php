@@ -14,8 +14,8 @@
               </div>
             </div>
             <div data-v-107c0948="" class="column speech">
-              <h1 data-v-107c0948="" data-test="GeneralHeading">Faite réaliser vos travaux plus rapidement part une équipe de talent sérieuse.</h1>
-              <div data-v-107c0948="" class="headline">Engager nous pour réaliser vos travaux les plus difficiles avec la meilleure qualité possible.<br data-v-107c0948=""><br data-v-107c0948="">Arrêtez de perdre du temps.</div>
+              <h1 data-v-107c0948="" data-test="GeneralHeading">Faite réaliser vos travaux plus rapidement part une équipe de talents sérieuse.</h1>
+              <div data-v-107c0948="" class="headline">Engagez-nous pour réaliser vos travaux les plus difficiles avec la meilleure qualité possible.<br data-v-107c0948=""><br data-v-107c0948="">Arrêtez de perdre du temps.</div>
               <div data-v-107c0948="" class="frk-buttons">
                 <a data-v-107c0948="" href="/codact" class="frk-action-button-blue frk-has-arrow">JE VEUX REALISER UN PROJET</a>
                 <!--a data-v-107c0948="" href="/freelance"

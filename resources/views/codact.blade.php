@@ -11,7 +11,7 @@
       <div data-v-4e2a56e8="" class="cover">
         <div data-v-4e2a56e8="" class="frk-container line inverted">
           <div data-v-4e2a56e8="" class="line-item speech">
-            <h1 data-v-4e2a56e8="" data-test="CompanyHomeHeading">Recevez la meilleur aide possible pour votre projet.</h1>
+            <h1 data-v-4e2a56e8="" data-test="CompanyHomeHeading">Recevez la meilleure aide possible pour votre projet.</h1>
             <p data-v-4e2a56e8="">Ne perdez plus de temps à faire le tri. </p><a data-v-4e2a56e8="" class="frk-action-button-blue frk-has-arrow" data-test="CompanyFirstUseButton">JE VEUX REALISER UN PROJET</a>
           </div>
           <div data-v-4e2a56e8="" class="line-item">

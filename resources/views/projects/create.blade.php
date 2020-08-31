@@ -90,19 +90,17 @@ label{text-transform: uppercase;}
                                               </div>
                                               <div class="col-12 col-md-9">
                                                   <select name="select" id="select" class="form-control" required>
-                                                      <option value="0">Landing Page</option>
-                                                      <option value="1">Blog</option>
-                                                      <option value="2">Boutique en ligne</option>
-                                                      <option value="3">Application web</option>
-                                                      <option value="3">Application Android</option>
-                                                      <option value="3">Application IOS</option>
-                                                      <option value="3">Application web</option>
-                                                      <option value="3">Augmentation de votre presence sur les résaux sociaux</option>
-                                                      <option value="3">Apprendre le developpement web</option>
-                                                      <option value="3">Apprendre le developpement d'applications Android</option>
-                                                      <option value="3">Apprendre à investir sur la publicité en ligne</option>
-                                                      <option value="3">Trader sur le marché du FOREX</option>
-                                                      <option value="3">Application web</option>
+                                                      <option value="Landing Page">Landing Page</option>
+                                                      <option value="Blog">Blog</option>
+                                                      <option value="Boutique en ligne">Boutique en ligne</option>
+                                                      <option value="App web">Application web</option>
+                                                      <option value="App Android">Application Android</option>
+                                                      <option value="App IOS">Application IOS</option>
+                                                      <option value="résaux sociaux">Augmentation de votre presence sur les résaux sociaux</option>
+                                                      <option value="learn web">Apprendre le developpement web</option>
+                                                      <option value="Learn Android">Apprendre le developpement d'applications Android</option>
+                                                      <option value="Learn">Apprendre à investir sur la publicité en ligne</option>
+                                                      <option value="Trader">Trader sur le marché du FOREX</option>
                                                   </select>
                                               </div>
                                           </div>

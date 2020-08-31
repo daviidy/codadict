@@ -3345,7 +3345,7 @@
             </div>
             <a class="is-hidden-desktop login-button frk-action-button-red-inverted">ME CONNECTER</a>
             <div class="navbar-menu">
-              <div class="navbar-start"><a href="/concept" class="navbar-item navbar-simple" id="concept" data-test="ConceptLink">CONCEPT</a>
+              <div class="navbar-start"><a href="/codact" class="navbar-item navbar-simple" id="concept" data-test="ConceptLink">CONCEPT</a>
                   <a href="/contact" class="navbar-item navbar-simple" id="contact" data-test="ContactLink">CONTACTEZ NOUS</a>
                   @guest
                   <a href="/login" class="navbar-item navbar-simple text-red is-hidden-desktop">SE CONNECTER</a>

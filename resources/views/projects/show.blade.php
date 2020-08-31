@@ -3946,7 +3946,7 @@ Edit `src/js/core.js` instead.
 
   .index__defaultLayoutRightSide--3sH2H {
     margin-top: 0;
-    padding-left: 15px;
+    padding-left: 14rem;
     width: 100%;
     /* Always show a vertical scrollbar to prevent horizontal stutter when scrollbar appears */
     overflow-y: scroll;
@@ -3962,7 +3962,7 @@ Edit `src/js/core.js` instead.
       --subtract-header-and-footer-height: calc(100% - var(--footer-height) - var(--header-height));
 
       height: var(--subtract-header-and-footer-height);
-      padding-left: 15px;
+      padding-left: 14rem;
       margin-top: var(--header-height);
       width: 100%;
     }
