@@ -205,6 +205,15 @@ label{text-transform: uppercase;}
                                                 </div>
                                               </div>
                                           </div>
+                                          <div class="row form-group">
+                                              <div class="col col-md-12">
+                                                  <label for="select" class=" form-control-label">10- Description</label>
+                                              </div>
+                                              <div class="col-12 col-md-9">
+                                                  <input type="hidden" name="text">
+                                                  <div class="" id="editorInformation" style="height: 300px;">
+                                              </div>
+                                          </div>
 
                                       </form>
                                   </div>
@@ -234,6 +243,37 @@ label{text-transform: uppercase;}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/4.4.7/themes/fa/theme.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+
+
+    <script>
+        var quillComment = new Quill('#editorInformation', {
+        modules: {
+            toolbar: [
+            ['bold', 'italic'],
+            ['link','align'],
+            ]
+        },
+        placeholder: 'Ajouter votre commentaire...',
+        theme: 'snow'
+        });
+
+        //a la sumissio  du formulmaire ob recupêre
+        //le contenu de la div qui a le texte riche
+        //et on met ce contenu dans l'input hidden
+        var form = document.getElementById('information-container');
+        form.onsubmit = function() {
+          // Populate hidden form on submit
+          var text = document.querySelector('input[name=text]');
+          text.value = quillComment.root.innerHTML;
+
+        //   console.log("Submitted", $(form).serialize(), $(form).serializeArray());
+
+          // No back end to actually submit to!
+        //   alert('Open the console to see the submit data!')
+          return true;
+        };
+      </script>
 
     <script type="text/javascript">
     $(document).ready(function() {

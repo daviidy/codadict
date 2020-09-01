@@ -46,6 +46,9 @@
     <!-- Main CSS-->
     <link href="/assets/css/theme.css" rel="stylesheet" media="all">
 
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+
+
 </head>
 
 <body class="animsition">
@@ -412,7 +415,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="copyright">
-                                <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+                                <p>© Copyrights Codadict - Tous droits réservés.</p>
                             </div>
                         </div>
                     </div>

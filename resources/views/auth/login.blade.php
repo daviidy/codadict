@@ -21,7 +21,10 @@
       background-color: #A8A8A8;
       font-family: 'Montserrat', sans-serif;
     }
-
+    .invalid-feedback{
+      font-size: x-small;
+      color: red;
+    }
     .container {
       /*border:1px solid white;*/
       width: 600px;
