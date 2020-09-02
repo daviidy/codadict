@@ -68,20 +68,18 @@
           <div data-v-4e2a56e8="" class="line-item laptop illustration rel wow fadeIn" style="visibility: visible;"></div>
           <div data-v-4e2a56e8="" data-wow-delay=".5s" class="line-item mission wow fadeIn" style="visibility: visible; animation-delay: 0.5s;">
             <p data-v-4e2a56e8="" class="headline">NOTRE PROMESSE</p>
-            <h2 data-v-4e2a56e8="">Nos freelances tech sont hautement qualifiés !</h2>
+            <h2 data-v-4e2a56e8="">Nos développeurs sont hautement qualifiés !</h2>
             <h3 data-v-4e2a56e8="">Vous êtes très exigeant, nous aussi.</h3>
-            <p data-v-4e2a56e8="">Chaque freelance de notre réseau est passé par une phase de sélection extrêmement rigoureuse. Nos Talent Experts ont doublement vérifié leur niveau de compétences techniques, leurs références,
-              leur personnalité, leur façon de s’adapter à l’entreprise, leur motivation pour votre projet… <br data-v-4e2a56e8=""><br data-v-4e2a56e8="">
-              Et nous ne retenons que 15% des profils interrogés.</p>
+            <p data-v-4e2a56e8="">Chaque développeur de notre équipe est passé par une phase de sélection extrêmement rigoureuse.<br data-v-4e2a56e8=""><br data-v-4e2a56e8=""> Notre équipe est doublement prêt à mettre leur compétence technique,
+              leur personnalité pour votre projet et est très motivée pour sa réalisation.</p>
           </div>
         </div>
         <div data-v-4e2a56e8="" class="line second inverted">
           <div data-v-4e2a56e8="" data-wow-delay=".5s" class="line-item administrative wow fadeIn" style="visibility: visible; animation-delay: 0.5s;">
             <p data-v-4e2a56e8="" class="headline">NOTRE PROMESSE</p>
-            <h2 data-v-4e2a56e8="">Nous vous faisons gagner un temps fou</h2>
-            <h3 data-v-4e2a56e8="">Stop aux recherches interminables.</h3>
-            <p data-v-4e2a56e8="">Un Talent Expert dédié étudie tous les aspects de votre demande et s’appuie sur nos outils de data analyse pour vous dénicher directement les 3 profils les plus adaptés.<br data-v-4e2a56e8=""><br
-                data-v-4e2a56e8="">Organisez vos entretiens librement.</p>
+            <h2 data-v-4e2a56e8="">Nous vous faisons gagner du temps</h2>
+            <h3 data-v-4e2a56e8="">Stoper vos recherches interminables.</h3>
+            <p data-v-4e2a56e8="">Notre équipe étudie tous les aspects de votre demande et s’appuie sur nos outils de data analyse afin de réaliser rapidement votre projet.<br data-v-4e2a56e8="">
           </div>
           <div data-v-4e2a56e8="" class="line-item graphic-tablet illustration wow fadeIn" style="visibility: visible;"></div>
         </div>
