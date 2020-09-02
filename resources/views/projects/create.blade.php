@@ -192,7 +192,7 @@ label{text-transform: uppercase;}
                                                   <label for="select" class=" form-control-label">8- Enfin, quel est votre numéro de téléphone ? (Whatsapp de préférence)</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <input type="number" id="numberl-input" name="number-input" placeholder="Votre numéro de téléphone" class="form-control" required>
+                                                  <input type="number" id="phone" name="number-input" placeholder="Votre numéro de téléphone" class="form-control" required>
                                               </div>
                                           </div>
 
@@ -222,9 +222,7 @@ label{text-transform: uppercase;}
                                       <button type="submit" class="btn btn-primary btn-sm">
                                           <i class="far fa-paper-plane"></i> Envoyer
                                       </button>
-                                      <button type="reset" class="btn btn-danger btn-sm">
-                                          <i class="fa fa-ban"></i> Reset
-                                      </button>
+
                                   </div>
                               </div>
 
@@ -275,6 +273,23 @@ label{text-transform: uppercase;}
           return true;
         };
       </script>
+
+      <script src="/plugin/build/js/intlTelInput.js"></script>
+        <script>
+          var input = document.querySelector("#phone");
+          window.intlTelInput(input, {
+
+            autoPlaceholder: "polite",
+
+             hiddenInput: "mobile_tel",
+
+             nationalMode: true,
+
+             preferredCountries: ["ci", "fr"],
+             separateDialCode: true,
+            utilsScript: "/plugin/build/js/utils.js",
+          });
+        </script>
 
     <script type="text/javascript">
     $(document).ready(function() {

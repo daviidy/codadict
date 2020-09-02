@@ -4391,7 +4391,7 @@ Favicons
         </div-->
         <div data-v-d722a68c="" class="column">
           <div data-v-d722a68c="" class="title">ADRESSE</div>
-          <p data-v-d722a68c="">Abidjan, Koumassi Fanny <!--br data-v-d722a68c="">
+          <p data-v-d722a68c="">Cocody - Bonoumin <!--br data-v-d722a68c="">
             contact@freelancerepublik.com --><br data-v-d722a68c=""> +225 58 450 600  <br data-v-d722a68c=""> +225 21 371 277</p>
         </div>
       </div><small data-v-d722a68c="">© Copyrights Codadict - Tous droits réservés <!--br data-v-d722a68c="">Design de <a data-v-d722a68c="" href="https://agence-me.com/">AgenceMe</a><br data-v-d722a68c=""-->

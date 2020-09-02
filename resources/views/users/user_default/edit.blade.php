@@ -1,5 +1,5 @@
 @extends('layouts.menu_user_default')
-@section('title', 'Paramètre')
+@section('title', 'Paramètres')
 
 @section('content')
 
@@ -45,6 +45,22 @@
                                                   <input type="text" id="text-input" name="text-input" placeholder="Text" class="form-control" disabled>
                                               </div>
                                           </div>
+                                          <div class="row form-group">
+                                              <div class="col col-md-3">
+                                                  <label for="text-input" class=" form-control-label">Nom de votre entreprise</label>
+                                              </div>
+                                              <div class="col-12 col-md-9">
+                                                  <input type="text" id="text-input" name="text-input" placeholder="Text" class="form-control">
+                                              </div>
+                                          </div>
+                                          <div class="row form-group">
+                                              <div class="col col-md-3">
+                                                  <label for="text-input" class=" form-control-label">Numéro de téléphone</label>
+                                              </div>
+                                              <div class="col-12 col-md-9">
+                                                  <input type="text" id="phone-1" name="text-input" placeholder="Text" class="form-control">
+                                              </div>
+                                          </div>
                                         </form>
                                         <!--hr>
                                         <div class="card-text text-sm-center">
@@ -73,4 +89,21 @@
         <!-- END PAGE CONTAINER-->
 
     </div>
+    <script src="/plugin/build/js/intlTelInput.js"></script>
+      <script>
+        var input = document.querySelector("#phone-1");
+        window.intlTelInput(input, {
+
+          autoPlaceholder: "polite",
+
+           hiddenInput: "mobile_tel",
+
+           nationalMode: true,
+
+           preferredCountries: ["ci", "fr"],
+           separateDialCode: true,
+          utilsScript: "/plugin/build/js/utils.js",
+        });
+      </script>
+
 @endsection
