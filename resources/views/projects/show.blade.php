@@ -9155,7 +9155,7 @@ Edit `src/js/core.js` instead.
       <div class="index__defaultLayoutMainContent--ReeiN">
         <div class="index__subNavbar--2d4Oi">
           <div class="index__subNavbarTopTitle--1GCtK"><!--a href="/en/portal/projects/1297933854058176512">Project 1</a--></div>
-          <div class="index__subNavbarTitle--2j_Jo" data-testid="sub-navbar-header">Mon projet</div>
+          <div style="margin-bottom: 2rem;" class="index__subNavbarTitle--2j_Jo" data-testid="sub-navbar-header">Mon projet</div>
           <!--nav class="index__nav--rduut" data-testid="sub-navbar-links-container" role="navigation">
             <ul class="index__navGroup---Jfgk TabGroup" role="tablist">
               <li data-testid="sub-navbar-header-link" class="index__activeTab--1-vAG Tab is-selected" role="presentation"><button type="button" aria-selected="true" role="tab">Settings</button></li>

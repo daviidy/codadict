@@ -12,7 +12,6 @@ class Multimedia extends Model
      */
     protected $fillable = ['name',
                            'project_id',
-
                          ];
 
 

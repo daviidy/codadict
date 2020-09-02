@@ -10,11 +10,12 @@ class Project extends Model
      * [protected description]
      * @var [array]
      */
-    protected $fillable = ['name',
+    protected $fillable = ['description',
                            'category_id',
                            'urgency',
                            'price',
                            'deadline',
+                           'status',
                          ];
 
 

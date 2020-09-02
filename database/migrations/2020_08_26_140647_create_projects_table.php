@@ -15,10 +15,11 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
-            $table->text('name');
+            $table->text('description');
             $table->integer('urgency');
             $table->double('price');
             $table->date('deadline');
+            $table->string('status');
             $table->bigInteger('category_id')->unsigned()->nullable();
             $table->foreign('category_id')->references('id')->on('categories');
             $table->timestamps();

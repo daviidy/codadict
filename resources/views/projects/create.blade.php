@@ -75,7 +75,8 @@ label{text-transform: uppercase;}
                                       <strong>Basic Form</strong> Elements
                                   </div-->
                                   <div class="card-body card-block">
-                                      <form action="" method="post" enctype="multipart/form-data" class="">
+                                      <form action="{{route('projects.store')}}" method="post" enctype="multipart/form-data" class="">
+                                          @csrf
                                           <!--div class="row form-group">
                                               <div class="col col-md-3">
                                                   <label class=" form-control-label">Static</label>
@@ -89,7 +90,7 @@ label{text-transform: uppercase;}
                                                   <label for="text-input" class=" form-control-label">1- Que voulez-vous exactement ?</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <select name="select" id="select" class="form-control" required>
+                                                  <select required name="select" id="select" class="form-control" required>
                                                       <option value="Landing Page">Landing Page</option>
                                                       <option value="Blog">Blog</option>
                                                       <option value="Boutique en ligne">Boutique en ligne</option>
