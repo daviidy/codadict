@@ -109,7 +109,7 @@
 
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
-                                <i class="fas fa-trophy"></i>Projet
+                                <i class="fas fa-trophy"></i>Projets
                                 <span class="arrow">
                                     <i class="fas fa-angle-down"></i>
                                 </span>
@@ -136,7 +136,7 @@
 
                         <li>
                             <a href="/users/edit">
-                                <i class="fas fa-cog"></i>Paramètre</a>
+                                <i class="fas fa-cog"></i>Paramètres</a>
                         </li>
                         <!--li class="has-sub">
                             <a class="js-arrow" href="#">
@@ -232,7 +232,7 @@
                                 </a>
                             </div>
                             <div class="header-button2">
-                                <div class="header-button-item js-item-menu">
+                                <!--div class="header-button-item js-item-menu">
                                     <i class="zmdi zmdi-search"></i>
                                     <div class="search-dropdown js-dropdown">
                                         <form action="">
@@ -242,8 +242,8 @@
                                             </span>
                                         </form>
                                     </div>
-                                </div>
-                                <div class="header-button-item has-noti js-item-menu">
+                                </div-->
+                                <!--div class="header-button-item has-noti js-item-menu">
                                     <i class="zmdi zmdi-notifications"></i>
                                     <div class="notifi-dropdown js-dropdown">
                                         <div class="notifi__title">
@@ -280,23 +280,23 @@
                                             <a href="#">All notifications</a>
                                         </div>
                                     </div>
-                                </div>
+                                </div-->
                                 <div class="header-button-item mr-0 js-sidebar-btn">
                                     <i class="zmdi zmdi-menu"></i>
                                 </div>
                                 <div class="setting-menu js-right-sidebar d-none d-lg-block">
                                     <div class="account-dropdown__body">
                                         <div class="account-dropdown__item">
-                                            <a href="#">
-                                                <i class="zmdi zmdi-account"></i>Account</a>
+                                            <a href="/home">
+                                                <i class="zmdi zmdi-account"></i>Tableau de bord</a>
                                         </div>
                                         <div class="account-dropdown__item">
                                             <a href="#">
-                                                <i class="zmdi zmdi-settings"></i>Setting</a>
+                                                <i class="zmdi zmdi-settings"></i>Paramètres</a>
                                         </div>
                                         <div class="account-dropdown__item">
                                             <a href="#">
-                                                <i class="zmdi zmdi-money-box"></i>Billing</a>
+                                                <i class="zmdi zmdi-money-box"></i>Mes projets</a>
                                         </div>
                                     </div>
                                     <!--div class="account-dropdown__body">
@@ -449,6 +449,10 @@
 
         <!-- Main JS-->
         <script src="/assets/js/main.js"></script>
+
+        <!--Plugin form cdn jquery tel selector-->
+        <link rel="stylesheet" href="/plugin/build/css/intlTelInput.css">
+        <link rel="stylesheet" href="/plugin/build/css/demo.css">
 
     </body>
 
