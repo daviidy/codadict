@@ -1951,7 +1951,7 @@ Favicons
     }
 
     .promise .illustration[data-v-4e2a56e8] {
-      background-color: #f2695a !important;
+      background-color: #4d90cc !important;
     }
 
     .promise .line:not(.inverted) .headline[data-v-4e2a56e8],
@@ -2150,20 +2150,20 @@ Favicons
     }
 
     .promise .first .illustration[data-v-4e2a56e8] {
-      background: url(https://www.freelancerepublik.com/assets/img/Illu1.735ad574.png) no-repeat top 97px right 15px;
-      background-size: 801px auto;
+      background: url(/assets/imgs/prom-2.jpg) no-repeat;
+      background-size: 900px auto;
     }
 
     @media screen and (max-width:1023px) {
       .promise .first .illustration[data-v-4e2a56e8] {
-        background-size: 95vw auto;
-        background-position: 0;
+        background-size: 80vw auto;
+        background-position: 50%;
       }
     }
 
     .promise .second .illustration[data-v-4e2a56e8] {
-      background: url(https://www.freelancerepublik.com/assets/img/Illu2.bf96cb1f.png) no-repeat top 152px left 139px;
-      background-size: 519px auto;
+      background: url(/assets/imgs/prom-3.jpg) no-repeat;
+      background-size: 900px auto;
     }
 
     @media screen and (max-width:1023px) {
@@ -4361,24 +4361,25 @@ Favicons
   <footer data-v-d722a68c="" class="footer">
     <div data-v-d722a68c="" class="frk-container">
       <div data-v-d722a68c="" class="columns">
-        <div data-v-d722a68c="" class="column is-4"><img data-v-d722a68c="" src="/assets/img/logo_frk_light.961436d7.svg" alt="FreelanceRepublik" class="logo">
-          <div data-v-d722a68c="" class="headline">Une sélection restreinte de freelances tech’ qualifiés et disponibles.</div>
-          <div data-v-d722a68c="" class="social"><a data-v-d722a68c="" href="https://www.linkedin.com/company/freelancerepublik" title="Suivez nous sur Linkedin"><img data-v-d722a68c="" src="/assets/img/linkedin.1ce6ddc9.svg" alt="Linkedin"></a><a
+        <div data-v-d722a68c="" class="column is-4"><img data-v-d722a68c="" src="/assets/imgs/icon/logoc-ff.png" alt="Codadict" class="logo">
+          <div data-v-d722a68c="" class="headline">Recevez la meilleure aide possible pour votre projet.</div>
+          <!--div data-v-d722a68c="" class="social"><a data-v-d722a68c="" href="https://www.linkedin.com/company/freelancerepublik" title="Suivez nous sur Linkedin"><img data-v-d722a68c="" src="/assets/img/linkedin.1ce6ddc9.svg" alt="Linkedin"></a><a
               data-v-d722a68c="" href="https://twitter.com/Freelance_Talks" title="Suivez nous sur Twitter"><img data-v-d722a68c="" src="/assets/img/twitter.19c5264a.svg" alt="Twitter"></a><a data-v-d722a68c=""
-              href="https://www.facebook.com/freelancerepublik" title="Suivez nous sur Facebook"><img data-v-d722a68c="" src="/assets/img/facebook.f294c082.svg" alt="Facebook"></a></div>
+              href="https://www.facebook.com/freelancerepublik" title="Suivez nous sur Facebook"><img data-v-d722a68c="" src="/assets/img/facebook.f294c082.svg" alt="Facebook"></a>
+          </div-->
         </div>
         <div data-v-d722a68c="" class="column">
           <div data-v-d722a68c="" class="title">LIENS</div>
           <nav data-v-d722a68c="">
             <ul data-v-d722a68c="" class="text">
-              <li data-v-d722a68c=""><a data-v-d722a68c="" href="https://blog.freelancerepublik.com">Blog</a></li>
-              <li data-v-d722a68c=""><a data-v-d722a68c="" href="/contact" class="">Nous contacter</a></li>
-              <li data-v-d722a68c=""><a data-v-d722a68c="" href="/on-demand" class="">Valeur Ajoutée</a></li>
-              <li data-v-d722a68c=""><a data-v-d722a68c="" href="/concept" class="">Concept</a></li>
+              <!--li data-v-d722a68c=""><a data-v-d722a68c="" href="https://blog.freelancerepublik.com">Blog</a></li>
+              <li data-v-d722a68c=""><a data-v-d722a68c="" href="/contact" class="">Nous contacter</a></li-->
+              <li data-v-d722a68c=""><a data-v-d722a68c="" href="/on-demand" class="">Nous contacter</a></li>
+              <!--li data-v-d722a68c=""><a data-v-d722a68c="" href="/concept" class="">Concept</a></li-->
             </ul>
           </nav>
         </div>
-        <div data-v-d722a68c="" class="column">
+        <!--div data-v-d722a68c="" class="column">
           <div data-v-d722a68c="" class="title">MENTIONS LEGALES</div>
           <nav data-v-d722a68c="">
             <ul data-v-d722a68c="" class="text">
@@ -4387,15 +4388,14 @@ Favicons
               <li data-v-d722a68c=""><a data-v-d722a68c="" href="/cookies" class="">Cookies</a></li>
             </ul>
           </nav>
-        </div>
+        </div-->
         <div data-v-d722a68c="" class="column">
           <div data-v-d722a68c="" class="title">ADRESSE</div>
-          <p data-v-d722a68c="">16 rue Trezel <br data-v-d722a68c="">92300 Levallois-Perret <br data-v-d722a68c="">
-            contact@freelancerepublik.com <br data-v-d722a68c="">
-            01 84 20 22 34</p>
+          <p data-v-d722a68c="">Abidjan, Koumassi Fanny <!--br data-v-d722a68c="">
+            contact@freelancerepublik.com --><br data-v-d722a68c=""> +225 58 450 600  <br data-v-d722a68c=""> +225 21 371 277</p>
         </div>
-      </div><small data-v-d722a68c="">© Copyrights OdhCom - Tous droits réservés <br data-v-d722a68c="">Design de <a data-v-d722a68c="" href="https://agence-me.com/">AgenceMe</a><br data-v-d722a68c="">
-        3.22.0</small>
+      </div><small data-v-d722a68c="">© Copyrights Codadict - Tous droits réservés <!--br data-v-d722a68c="">Design de <a data-v-d722a68c="" href="https://agence-me.com/">AgenceMe</a><br data-v-d722a68c=""-->
+      </small>
     </div>
   </footer>
 </div>
