@@ -25,11 +25,20 @@ Route::get('/codact', function () {
     return view('codact');
 });
 
-
+/*LOGIN TEST*/
 Route::get('/log', function () {
     return view('/login');
 });
-
+Route::get('/admin-1', function () {
+    return view('/users/user_admin/index');
+});
+Route::get('/admin-2', function () {
+    return view('/users/user_admin/users_list');
+});
+Route::get('/admin-3', function () {
+    return view('/users/user_admin/projet_list');
+});
+/*END LOGIN TEST*/
 Route::get('/users/createproject', function () {
     return view('/users/user_default/creat_project');
 });
