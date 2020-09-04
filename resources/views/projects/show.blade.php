@@ -384,7 +384,7 @@ Edit `src/js/core.js` instead.
   optgroup,
   select,
   textarea {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     /* 1 */
     font-size: 100%;
     /* 1 */
@@ -599,7 +599,7 @@ Edit `src/js/core.js` instead.
   html {
     box-sizing: border-box;
     /* 1 */
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     /* 2 */
   }
 
@@ -686,7 +686,7 @@ Edit `src/js/core.js` instead.
   optgroup,
   select,
   textarea {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 100%;
     line-height: 1.15;
   }
@@ -898,7 +898,7 @@ Edit `src/js/core.js` instead.
     width: 100%;
     color: white;
     content: '?';
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.5rem;
     font-weight: 700;
     line-height: 0;
@@ -1857,7 +1857,7 @@ Edit `src/js/core.js` instead.
 
   body {
     color: #14171a;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.7rem;
     line-height: 1rem;
   }
@@ -1896,7 +1896,7 @@ Edit `src/js/core.js` instead.
   }
 
   button {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: inherit;
   }
 
@@ -1907,7 +1907,7 @@ Edit `src/js/core.js` instead.
   h4,
   h5,
   h6 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   h1 {
@@ -3396,7 +3396,7 @@ Edit `src/js/core.js` instead.
     border-radius: 0.2rem;
     color: white;
     font-size: 0.5rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   h1 .Label {
@@ -4490,7 +4490,7 @@ Edit `src/js/core.js` instead.
   .-S-tR--ff-downloader ._6_Mtt--header {
     padding: 10px;
     font-size: 17px;
-    font-family: sans-serif
+    font-family: 'Montserrat', sans-serif
   }
 
   .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn {
@@ -4522,7 +4522,7 @@ Edit `src/js/core.js` instead.
 
   .-S-tR--ff-downloader ._2dFLA--container .nxuu4--file-info {
     padding: 6px 15px 0;
-    font-family: sans-serif
+    font-family: 'Montserrat', sans-serif
   }
 
   .-S-tR--ff-downloader ._2dFLA--container .nxuu4--file-info div {
@@ -4852,7 +4852,7 @@ Edit `src/js/core.js` instead.
     border: 1px solid #ccd6dd;
     background: white;
     color: #14171a;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     transition: border-color 0.25s, box-shadow 0.25s;
   }
 
@@ -6435,7 +6435,7 @@ Edit `src/js/core.js` instead.
     border: 1px solid #1da1f2;
     color: #1da1f2;
     cursor: pointer;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
   }
 
@@ -6707,7 +6707,7 @@ Edit `src/js/core.js` instead.
     box-shadow: none;
     color: #1b95e0;
     cursor: pointer;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
   }
 
@@ -6743,7 +6743,7 @@ Edit `src/js/core.js` instead.
     box-shadow: none;
     color: #e0245e;
     cursor: pointer;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
   }
 
