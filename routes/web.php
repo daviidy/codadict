@@ -36,7 +36,7 @@ Route::get('/admin-2', function () {
     return view('/users/user_admin/users_list');
 });
 Route::get('/admin-3', function () {
-    return view('/users/user_admin/projet_list');
+    return view('/users/user_admin/show_project');
 });
 /*END LOGIN TEST*/
 Route::get('/users/createproject', function () {

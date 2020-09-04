@@ -1,7 +1,7 @@
 @extends('layouts.admin')
-@section('title', 'Liste des utilisateurs')
-@section('page_title', 'Liste des utilisateurs')
-@section('link_title', 'Liste des utilisateurs')
+@section('title', 'Liste des projets')
+@section('page_title', 'Liste des projets')
+@section('link_title', 'Liste des projets')
 
 @section('content')
 
@@ -16,7 +16,7 @@
 
                 <div class="card">
                     <div class="card-header">
-                        <h5>Liste des utilisateurs</h5>
+                        <h5>Liste des projets</h5>
                         <span>use class <code>table</code> inside table element</span>
                         <div class="card-header-right">
                             <ul class="list-unstyled card-option">
@@ -35,9 +35,9 @@
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Nom d'utilisateur</th>
+                                        <th>Nom de l'entreprise</th>
                                         <th>Email</th>
-                                        <th>Type</th>
+                                        <th>Type de projet</th>
                                         <th></th>
                                     </tr>
                                 </thead>
