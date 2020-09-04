@@ -27,7 +27,7 @@ Route::get('/codact', function () {
 
 /*LOGIN TEST*/
 Route::get('/log', function () {
-    return view('/login');
+    return view('/users/user_default/edit');
 });
 Route::get('/admin-1', function () {
     return view('/users/user_admin/index');
@@ -38,7 +38,7 @@ Route::get('/admin-2', function () {
 Route::get('/admin-3', function () {
     return view('/users/user_admin/show_project');
 });
-/*END LOGIN TEST*/
+
 Route::get('/users/createproject', function () {
     return view('/users/user_default/creat_project');
 });
@@ -46,7 +46,7 @@ Route::get('/users/createproject', function () {
 Route::get('/users/editproject', function () {
     return view('/users/user_default/edit_project');
 });
-
+/*END LOGIN TEST*/
 
 Auth::routes();
 
