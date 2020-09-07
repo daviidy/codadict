@@ -45,7 +45,7 @@
                                     @foreach($users as $user)
                                     <tr>
                                         <th scope="row">{{$loop->index + 1}}</th>
-                                        <td>{{$user->name}}</td>
+                                        <td><a href="{{url('users', $user}}">{{$user->name}}</a></td>
                                         <td>
                                             {{$user->email}}
                                         </td>

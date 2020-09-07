@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 @section('title', 'Liste des projets')
-@section('page_title', 'Liste des projets')
-@section('link_title', 'Liste des projets')
+@section('page_title', 'Liste des utilisateurs')
+@section('link_title', 'Liste des Utilisateurs')
 
 @section('content')
 
