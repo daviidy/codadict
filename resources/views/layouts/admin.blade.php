@@ -114,7 +114,7 @@
                             </li>
                         </ul>
                         <ul class="nav-right">
-                            
+
                             <li class="user-profile header-notification">
                                 <div class="dropdown-primary dropdown">
                                     <div class="dropdown-toggle" data-toggle="dropdown">
@@ -308,7 +308,7 @@
                                         <ul class="pcoded-submenu">
 
                                             <li class="">
-                                                <a href="/admin/annonces" class="waves-effect waves-dark">
+                                                <a href="{{url('projects')}}" class="waves-effect waves-dark">
                                                     <span class="pcoded-mtext">Liste des projets</span>
                                                 </a>
                                             </li>

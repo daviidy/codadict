@@ -42,23 +42,23 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-
+                                    @foreach($users as $user)
                                     <tr>
-                                        <th scope="row">1</th>
-                                        <td>aaaaaaaa</td>
+                                        <th scope="row">{{$loop->index + 1}}</th>
+                                        <td>{{$user->name}}</td>
                                         <td>
-                                            bbbbbb
+                                            {{$user->email}}
                                         </td>
-                                        <td>dddd</td>
+                                        <td>{{$user->type}}</td>
                                         <td>
                                             <div class="row">
                                                 <div class="col-6">
-                                                    <a class="float-right" href="#">
+                                                    <a class="float-right" href="/admin/users/{{$user->id}}">
                                                         <i class="icon-pencil text-primary"></i>
                                                     </a>
                                                 </div>
                                                 <div class="col-6">
-                                                    <form action="{{ route('users.destroy', $user ?? '') }}" method="post">
+                                                    <form action="{{ route('users.destroy', $user) }}" method="post">
                                                         {{ csrf_field() }}
                                                         {{ method_field('delete') }}
                                                         <button
@@ -73,17 +73,20 @@
 
                                         </td>
                                         <td>
-
-                                            <a href="#">
+                                          {{--
+                                            @if($user->type == 'admin')
+                                            <a href="/revokeAdmin/{{$user->id}}">
                                                 Retirer les droits administrateurs
                                             </a>
-
-                                            <a href="#">
+                                            @else
+                                            <a href="/defineAsAdmin/{{$user->id}}">
                                                 Définir comme admin
                                             </a>
-
+                                            @endif
+                                            --}}
                                         </td>
                                     </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
                         </div>

@@ -19,8 +19,14 @@ class ProjectController extends Controller
     public function index()
     {
         if (Auth::check()) {
-            $projects = Project::orderby('id', 'asc')->where('user_id', Auth::id())->paginate(30);
-            return view('projects.index', ['projects' => $projects]);
+            if (Auth::user()->isAdmin()) {
+                $projects = Project::orderby('id', 'asc')->where('user_id', Auth::id())->paginate(30);
+                return view('users.user_admin.projects.index', ['projects' => $projects]);
+            }
+            else {
+                $projects = Project::orderby('id', 'asc')->where('user_id', Auth::id())->paginate(30);
+                return view('projects.index', ['projects' => $projects]);
+            }
         }
         else {
             return redirect('home');
@@ -87,7 +93,19 @@ class ProjectController extends Controller
      */
     public function show(Project $project)
     {
-        return view('projects.show', ['project' => $project]);
+        if (Auth::check()) {
+            if (Auth::user()->isAdmin()) {
+                return view('users.user_admin.projects.show', ['project' => $project]);
+            }
+            else {
+                return view('projects.show', ['project' => $project]);
+            }
+
+        }
+        else {
+            return redirect('home');
+        }
+
     }
 
     /**
@@ -98,7 +116,13 @@ class ProjectController extends Controller
      */
     public function edit(Project $project)
     {
-        return view('projects.default.edit', ['project' => $project]);
+        if (Auth::check()) {
+            return view('projects.default.edit', ['project' => $project]);
+        }
+        else {
+            return redirect('home');
+        }
+
     }
 
     /**
@@ -142,7 +166,13 @@ class ProjectController extends Controller
      */
     public function destroy(Project $project)
     {
-        $project->delete();
-        return redirect('projects')->with('status', 'Votre projet a été supprimé avec succès');
+        if (Auth::check()) {
+            $project->delete();
+            return redirect('projects')->with('status', 'Votre projet a été supprimé avec succès');
+        }
+        else {
+            return redirect('home');
+        }
+
     }
 }

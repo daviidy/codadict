@@ -9244,7 +9244,7 @@ Edit `src/js/core.js` instead.
                         <div class="Panel-title" role="heading">Deadline</div>
                       </div>
                     </div>
-                    <div class="Panel-body">{{$projet->deadline}}</div>
+                    <div class="Panel-body">{{$project->deadline}}</div>
                   </div>
                 </div>
 
