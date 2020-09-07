@@ -3,6 +3,10 @@
 
 @section('content')
 
+@if(session('status'))
+@include('includes.status')
+@endif
+
             <!-- MAIN CONTENT-->
             <div class="main-content">
                 <div class="section__content section__content--p30">
@@ -62,12 +66,24 @@
                                           </div>
                                           <div class="row form-group">
                                               <div class="col col-md-3">
+                                                  <label for="text-input" class=" form-control-label">Pays</label>
+                                              </div>
+                                              <div class="col-12 col-md-9">
+                                                  <input type="text" id="country" name="text-input" placeholder="Text" class="form-control">
+                                              </div>
+                                          </div>
+                                          <div class="row form-group">
+                                              <div class="col col-md-3">
                                                   <label for="text-input" class=" form-control-label">Numéro de téléphone</label>
                                               </div>
                                               <div class="col-12 col-md-9">
                                                   <input type="text" id="phone-1" name="phone" value="{{Auth::user()->phone}}" class="form-control">
                                               </div>
                                           </div>
+
+                                          <button type="submit" class="btn btn-primary btn-sm">
+                                              <i class="far fa-edit"></i> Modifier
+                                          </button>
                                         </form>
                                         <!--hr>
                                         <div class="card-text text-sm-center">
@@ -111,6 +127,11 @@
            separateDialCode: true,
           utilsScript: "/plugin/build/js/utils.js",
         });
+      </script>
+
+      <script src="/plugin/build/js/countrySelect.min.js"></script>
+      <script>
+        $("#country").countrySelect();
       </script>
 
 @endsection

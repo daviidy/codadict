@@ -1,5 +1,5 @@
-@extends('layouts.menu_user_default')
-@section('title', 'Mes projets')
+@extends('layouts.admin')
+@section('title', 'Listes des projets')
 
 @section('content')
 
@@ -3946,7 +3946,7 @@ Edit `src/js/core.js` instead.
 
   .index__defaultLayoutRightSide--3sH2H {
     margin-top: 0;
-    padding-left: 14rem;
+
     width: 100%;
     /* Always show a vertical scrollbar to prevent horizontal stutter when scrollbar appears */
     overflow-y: scroll;
@@ -3962,7 +3962,7 @@ Edit `src/js/core.js` instead.
       --subtract-header-and-footer-height: calc(100% - var(--footer-height) - var(--header-height));
 
       height: var(--subtract-header-and-footer-height);
-      padding-left: 14rem;
+
       margin-top: var(--header-height);
       width: 100%;
     }
@@ -8741,7 +8741,7 @@ Edit `src/js/core.js` instead.
     }
 
     .index__twoColumnsLeft--1Z5Tv {
-      width: 60%;
+      width: 100%;
       padding: var(--desktop-page-column-padding);
     }
 
@@ -8793,7 +8793,7 @@ Edit `src/js/core.js` instead.
   }
 
   .index__panel--37cbW {
-    background-color: var(--tw-color-gray-faint);
+    background-color: #fff;
     border-radius: .25rem;
     padding: 1rem 0;
     margin-bottom: 0.8rem;
@@ -9147,37 +9147,6 @@ Edit `src/js/core.js` instead.
 </style>
 
 
-
-<style media="screen">
-.fixed {
-    position: fixed;
-    bottom: 15px;
-    height: 70px;
-    z-index: 1;
-}
-
-.img_box{
-    padding: 25px;
-    background-color: white;
-    border: 2px solid #ebebec;
-    border-radius: 5px;
-}
-.img_box img{
-    padding: 2px;
-    border: 2px solid #cecece;
-    width: 100%;
-    transition: transform 1.8s;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.img_box img:hover{
-    -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5);
-}
-.fa-cog{font-size: xx-large;}
-</style>
-
-
 <div id="root" style="height: 100%;">
   <div class="index__App--2OTWa">
 
@@ -9186,7 +9155,7 @@ Edit `src/js/core.js` instead.
       <div class="index__defaultLayoutMainContent--ReeiN">
         <div class="index__subNavbar--2d4Oi">
           <div class="index__subNavbarTopTitle--1GCtK"><!--a href="/en/portal/projects/1297933854058176512">Project 1</a--></div>
-          <div style="margin-bottom: 2rem;" class="index__subNavbarTitle--2j_Jo" data-testid="sub-navbar-header">Mon projet</div>
+          <div class="index__subNavbarTitle--2j_Jo" data-testid="sub-navbar-header">Nom de l'entreprise</div>
           <!--nav class="index__nav--rduut" data-testid="sub-navbar-links-container" role="navigation">
             <ul class="index__navGroup---Jfgk TabGroup" role="tablist">
               <li data-testid="sub-navbar-header-link" class="index__activeTab--1-vAG Tab is-selected" role="presentation"><button type="button" aria-selected="true" role="tab">Settings</button></li>
@@ -9199,8 +9168,8 @@ Edit `src/js/core.js` instead.
             <div class="index__headerContainer--2DUI1">
               <div class="index__headerText--1706O"><img alt="app-details" class="DevPortalIcon" height="28" src="https://ton.twimg.com/dataproducts/devportalvnext/dist/276e357dd1fbe9d779e38eb6e5e822f9.svg" width="22">
                 <h6 data-testid="app-details">LES DETAILS</h6>
-            </div><a href="{{route('projects.edit', $project)}}"><button class="Button Button--primary" tabindex="0" type="button"><span class="Button-label"><span
-                      class="Icon Icon--editPencil index__editPencil--1rb7K"></span> Modifier</span></button></a>
+              </div><!--a href="/en/portal/projects/1297933854058176512/apps/18626638/settings/edit"><button class="Button Button--primary" tabindex="0" type="button"><span class="Button-label"><span
+                      class="Icon Icon--editPencil index__editPencil--1rb7K"></span> Modifier</span></button></a-->
             </div>
             <div>
               <div class="index__Grid--LGMfX">
@@ -9208,10 +9177,10 @@ Edit `src/js/core.js` instead.
                   <div class="index__panel--37cbW Panel">
                     <div class="index__basicPanelHeader--2i4kh Panel-header">
                       <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">Catégorie</div>
+                        <div class="Panel-title" role="heading">QUE VOULEZ-VOUS EXACTEMENT ?</div>
                       </div>
                     </div>
-                    <div class="Panel-body">{{$project->category->name}}</div>
+                    <div class="Panel-body">Blog ReactJS</div>
                   </div>
                 </div>
 
@@ -9219,10 +9188,10 @@ Edit `src/js/core.js` instead.
                   <div class="index__panel--37cbW Panel">
                     <div class="index__basicPanelHeader--2i4kh Panel-header">
                       <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">Description</div>
+                        <div class="Panel-title" role="heading">QUEL EST VOTRE NOM COMPLET ?</div>
                       </div>
                     </div>
-                    <div class="Panel-body">{!!$project->description!!}</div>
+                    <div class="Panel-body">Blog ReactJS</div>
                   </div>
                 </div>
 
@@ -9230,10 +9199,10 @@ Edit `src/js/core.js` instead.
                   <div class="index__panel--37cbW Panel">
                     <div class="index__basicPanelHeader--2i4kh Panel-header">
                       <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">Budget</div>
+                        <div class="Panel-title" role="heading">QUEL EST LE NOM DE VOTRE ENTREPRISE ?</div>
                       </div>
                     </div>
-                    <div class="Panel-body">{{$project->price}} EUR</div>
+                    <div class="Panel-body">Blog ReactJS</div>
                   </div>
                 </div>
 
@@ -9241,10 +9210,10 @@ Edit `src/js/core.js` instead.
                   <div class="index__panel--37cbW Panel">
                     <div class="index__basicPanelHeader--2i4kh Panel-header">
                       <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">Deadline</div>
+                        <div class="Panel-title" role="heading">A QUEL POINT VOTRE DEMANDE EST-ELLE URGENTE ?</div>
                       </div>
                     </div>
-                    <div class="Panel-body">{{$projet->deadline}}</div>
+                    <div class="Panel-body">Blog ReactJS</div>
                   </div>
                 </div>
 
@@ -9252,41 +9221,54 @@ Edit `src/js/core.js` instead.
                   <div class="index__panel--37cbW Panel">
                     <div class="index__basicPanelHeader--2i4kh Panel-header">
                       <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">Statut</div>
+                        <div class="Panel-title" role="heading">QUEL EST VOTRE BUDGET ?</div>
                       </div>
                     </div>
-                    <div class="Panel-body">En cours d'évaluation</div>
+                    <div class="Panel-body">Blog ReactJS</div>
                   </div>
                 </div>
-
 
                 <div class="pure-u-12-12 pure-u-lg-8-12">
                   <div class="index__panel--37cbW Panel">
                     <div class="index__basicPanelHeader--2i4kh Panel-header">
                       <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">Documents</div>
+                        <div class="Panel-title" role="heading">QUEL EST LE DÉLAI POUR VOTRE PROJET (SI VOUS VOULEZ RÉALISER UN PROJET) ?</div>
                       </div>
                     </div>
-                    <div class="Panel-body">
-                        @if(count($project->multimedias) > 0)
+                    <div class="Panel-body">Blog ReactJS</div>
+                  </div>
+                </div>
 
-                                <div class="img_box">
-                                        <div class="row">
-                                            @foreach($project->multimedias as $multimedia)
-                                            @if(strpos($multimedia->name, '.png') !== false || strpos($multimedia->name, '.jpg') !== false || strpos($multimedia->name, '.jpeg') !== false)
-                                                <div class="col-md-4 col-sm-12">
-                                                    <img src="/storage/files/projects/{{$multimedia->name}}" >
-                                                </div>
-                                            @endif
-                                            @endforeach
-
-                                            </div>
-
-
-                                </div>
-
-                        @endif
+                <div class="pure-u-12-12 pure-u-lg-8-12">
+                  <div class="index__panel--37cbW Panel">
+                    <div class="index__basicPanelHeader--2i4kh Panel-header">
+                      <div class="Panel-headerContent">
+                        <div class="Panel-title" role="heading">QUELLE EST VOTRE MEILLEURE ADRESSE EMAIL?</div>
+                      </div>
                     </div>
+                    <div class="Panel-body">Blog ReactJS</div>
+                  </div>
+                </div>
+
+                <div class="pure-u-12-12 pure-u-lg-8-12">
+                  <div class="index__panel--37cbW Panel">
+                    <div class="index__basicPanelHeader--2i4kh Panel-header">
+                      <div class="Panel-headerContent">
+                        <div class="Panel-title" role="heading">ENFIN, QUEL EST VOTRE NUMÉRO DE TÉLÉPHONE ? (WHATSAPP DE PRÉFÉRENCE)</div>
+                      </div>
+                    </div>
+                    <div class="Panel-body">Blog ReactJS</div>
+                  </div>
+                </div>
+
+                <div class="pure-u-12-12 pure-u-lg-8-12">
+                  <div class="index__panel--37cbW Panel">
+                    <div class="index__basicPanelHeader--2i4kh Panel-header">
+                      <div class="Panel-headerContent">
+                        <div class="Panel-title" role="heading">DOCUMENT</div>
+                      </div>
+                    </div>
+                    <div class="Panel-body">Blog ReactJS</div>
                   </div>
                 </div>
 
@@ -9302,6 +9284,8 @@ Edit `src/js/core.js` instead.
                 </div>
 
 
+
+
               </div>
             </div>
 
@@ -9309,13 +9293,13 @@ Edit `src/js/core.js` instead.
 
 
           </div>
-          <div class="index__twoColumnsRight--2YCMD" data-testid="two-columns-right">
+          <!--div class="index__twoColumnsRight--2YCMD" data-testid="two-columns-right">
             <div class="index__CTAWidget--X575C"><img alt="pin-the-tail-on-the-donkey" class="DevPortalIcon" height="80" src="https://ton.twimg.com/dataproducts/devportalvnext/dist/9c10548fc6472e6e38f02893035ba095.svg" width="80">
               <h6 class="index__ctaWidgetHeader--dPdqr" data-testid="cta-widget-header">Party time! 3rd-party auth style.</h6>
               <p class="index__ctaWidgetText--1-jlX" data-testid="cta-widget-text">Ya, it’s probably not going to be that fun. But hey, we need your help.</p><button class="Button" tabindex="0" type="button"><span class="Button-label">Give
                   feedback</span></button>
             </div>
-          </div>
+          </div-->
         </div>
       </div>
 
