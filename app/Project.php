@@ -16,6 +16,7 @@ class Project extends Model
                            'price',
                            'deadline',
                            'status',
+                           'user_id'
                          ];
 
 

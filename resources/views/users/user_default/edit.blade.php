@@ -14,21 +14,27 @@
 
                                     <div class="card-body">
                                         <div class="mx-auto d-block">
-                                            <img class="rounded-circle mx-auto d-block" src="/assets/imgs/icon/avatar-01.jpg" alt="Card image cap" style="width:30%;">
-                                            <h5 class="text-sm-center mt-2 mb-1">Steven Lee</h5>
+                                            <img class="rounded-circle mx-auto d-block" src="/storage/images/users/{{Auth::user()->image}}" alt="{{Auth::user()->name}}" style="width:30%;">
+                                            <h5 class="text-sm-center mt-2 mb-1">{{Auth::user()->name}}</h5>
+                                            <!--
                                             <div class="location text-sm-center">
-                                                <i class="fa fa-map-marker"></i> California, United States</div>
+                                                <i class="fa fa-map-marker"></i> California, United States
+                                            </div>
+                                        -->
                                         </div>
                                         <hr>
-                                        <form class="" action="index.html" method="post">
+                                        <form class="" action="{{url('users', Auth::user())}}" method="post" enctype="multipart/form-data">
+                                            @csrf
+                                            {{method_field('patch')}}
                                           <div class="row form-group">
                                               <div class="col col-md-3">
                                                   <label for="text-input" class=" form-control-label">Photo de profil </label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <input type="file" id="text-input" name="text-input" placeholder="Text" class="form-control">
+                                                  <input type="file" id="text-input" name="image" placeholder="Text" class="form-control">
                                               </div>
                                           </div>
+                                          {{--
                                           <div class="row form-group">
                                               <div class="col col-md-3">
                                                   <label for="text-input" class=" form-control-label">Username</label>
@@ -37,12 +43,13 @@
                                                   <input type="text" id="text-input" name="text-input" placeholder="Text" class="form-control">
                                               </div>
                                           </div>
+                                          --}}
                                           <div class="row form-group">
                                               <div class="col col-md-3">
                                                   <label for="text-input" class=" form-control-label">Email</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <input type="text" id="text-input" name="text-input" placeholder="Text" class="form-control" disabled>
+                                                  <input type="text" id="text-input" name="email" value="{{Auth::user()->email}}" class="form-control" readonly>
                                               </div>
                                           </div>
                                           <div class="row form-group">
@@ -50,7 +57,7 @@
                                                   <label for="text-input" class=" form-control-label">Nom de votre entreprise</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <input type="text" id="text-input" name="text-input" placeholder="Text" class="form-control">
+                                                  <input type="text" id="text-input" name="company" value="{{Auth::user()->company}}" class="form-control">
                                               </div>
                                           </div>
                                           <div class="row form-group">
@@ -58,7 +65,7 @@
                                                   <label for="text-input" class=" form-control-label">Numéro de téléphone</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <input type="text" id="phone-1" name="text-input" placeholder="Text" class="form-control">
+                                                  <input type="text" id="phone-1" name="phone" value="{{Auth::user()->phone}}" class="form-control">
                                               </div>
                                           </div>
                                         </form>

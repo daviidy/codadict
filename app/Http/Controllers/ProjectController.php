@@ -19,7 +19,7 @@ class ProjectController extends Controller
     public function index()
     {
         if (Auth::check()) {
-            $projects = Project::orderby('id', 'asc')->paginate(30);
+            $projects = Project::orderby('id', 'asc')->where('user_id', Auth::id())->paginate(30);
             return view('projects.index', ['projects' => $projects]);
         }
         else {
@@ -73,6 +73,9 @@ class ProjectController extends Controller
           }
         }
 
+        $project->status = 'submitted';
+        $project->save();
+
         return redirect('projects')->with('status', 'Votre projet a été crée avec succès');
     }
 
@@ -84,7 +87,7 @@ class ProjectController extends Controller
      */
     public function show(Project $project)
     {
-        return view('projects.default.show', ['project' => $project]);
+        return view('projects.show', ['project' => $project]);
     }
 
     /**

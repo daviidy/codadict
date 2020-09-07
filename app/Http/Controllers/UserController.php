@@ -22,7 +22,7 @@ class UserController extends Controller
     {
         if (Auth::check() && Auth::user()->isAdmin()) {
             $users = User::orderby('id', 'asc')->paginate(30);
-            return view('users.admin.users.index', ['users' => $users]);
+            return view('users.user_admin.index', ['users' => $users]);
         }
         else {
             return redirect('home');
@@ -122,7 +122,7 @@ class UserController extends Controller
     {
         if (Auth::check()) {
             if (Auth::user()->isAdmin()) {
-                return view('users.admin.users.show', ['user' => $user,]);
+                return view('users.user_admin.show', ['user' => $user,]);
             }
             else {
                 return view('users.show', ['user' => $user,]);
@@ -143,7 +143,7 @@ class UserController extends Controller
     public function edit(User $user)
     {
         if (Auth::check()) {
-            return view('users.edit', ['user' => $user,]);
+            return view('users.user_default.edit', ['user' => $user,]);
         }
         else {
             return redirect('home');

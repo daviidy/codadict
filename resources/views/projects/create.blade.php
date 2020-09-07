@@ -90,7 +90,7 @@ label{text-transform: uppercase;}
                                                   <label for="text-input" class=" form-control-label">1- Que voulez-vous exactement ?</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <select required name="select" id="select" class="form-control" required>
+                                                  <select required name="category_id" id="select" class="form-control" required>
                                                       <option value="Landing Page">Landing Page</option>
                                                       <option value="Blog">Blog</option>
                                                       <option value="Boutique en ligne">Boutique en ligne</option>
@@ -110,7 +110,7 @@ label{text-transform: uppercase;}
                                                   <label for="text-input" class=" form-control-label">2- Quel est votre nom complet ?</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <input type="text" id="text-input" name="text-input" placeholder="Nom complet" class="form-control" required>
+                                                  <input type="text" id="text-input" name="user_name" value="{{Auth::user()->name}}" class="form-control" required readonly>
                                               </div>
 
                                           </div>
@@ -119,7 +119,7 @@ label{text-transform: uppercase;}
                                                   <label for="text-input" class=" form-control-label">3- Quel est le nom de votre entreprise ? (facultatif)</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <input type="text" id="text-input" name="text-input" placeholder="Nom de votre entreprise ? (facultatif)" class="form-control" required>
+                                                  <input type="text" id="text-input" name="user_company" value="{{Auth::user()->company}}" class="form-control">
                                               </div>
 
                                           </div>
@@ -130,15 +130,15 @@ label{text-transform: uppercase;}
                                               <div class="col-12 col-md-9">
                                                   <div class="form-check-inline form-check">
                                                     <div class="rating">
-                                                      <input type="radio" name="rating" value="5" id="5">
+                                                      <input type="radio" name="urgency" value="5" id="5">
                                                       <label for="5">☆</label>
-                                                      <input type="radio" name="rating" value="4" id="4">
+                                                      <input type="radio" name="urgency" value="4" id="4">
                                                       <label for="4">☆</label>
-                                                      <input type="radio" name="rating" value="3" id="3">
+                                                      <input type="radio" name="urgency" value="3" id="3">
                                                       <label for="3">☆</label>
-                                                      <input type="radio" name="rating" value="2" id="2">
+                                                      <input type="radio" name="urgency" value="2" id="2">
                                                       <label for="2">☆</label>
-                                                      <input type="radio" name="rating" value="1" id="1">
+                                                      <input type="radio" name="urgency" value="1" id="1">
                                                       <label for="1">☆</label>
                                                     </div>
                                                   </div>
@@ -147,26 +147,10 @@ label{text-transform: uppercase;}
 
                                           <div class="row form-group">
                                               <div class="col col-md-12">
-                                                  <label class=" form-control-label">5- Quel est votre budget ? (facultatif)</label>
+                                                  <label class=" form-control-label">5- Quel est votre budget ? (en Euros)</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <div class="form-check">
-                                                      <div class="radio">
-                                                          <label for="radio1" class="form-check-label ">
-                                                              <input type="radio" id="radio1" name="radios" value="option1" class="form-check-input">Moins de 350 €
-                                                          </label>
-                                                      </div>
-                                                      <div class="radio">
-                                                          <label for="radio2" class="form-check-label ">
-                                                              <input type="radio" id="radio2" name="radios" value="option2" class="form-check-input">Autour de 1500 €
-                                                          </label>
-                                                      </div>
-                                                      <div class="radio">
-                                                          <label for="radio3" class="form-check-label ">
-                                                              <input type="radio" id="radio3" name="radios" value="option3" class="form-check-input">Le ciel est la limite
-                                                          </label>
-                                                      </div>
-                                                  </div>
+                                                  <input type="number" id="text-input" name="price" value="" class="form-control">
                                               </div>
                                           </div>
 
@@ -175,7 +159,7 @@ label{text-transform: uppercase;}
                                                   <label for="date-input" class=" form-control-label">6- Quel est le délai pour votre projet (si vous voulez réaliser un projet) ?</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <input type="date" id="date" name="text-input" placeholder="Le délai pour votre projet" class="form-control" required>
+                                                  <input type="date" id="date" name="deadline" placeholder="Le délai pour votre projet" class="form-control" required>
                                               </div>
                                           </div>
                                           <div class="row form-group">
@@ -183,7 +167,7 @@ label{text-transform: uppercase;}
                                                   <label for="select" class=" form-control-label">7- Quelle est votre meilleure adresse email?</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <input type="email" id="email-input" name="email-input" placeholder="Enter Email" class="form-control">
+                                                  <input type="email" id="email-input" name="user_email" value="{{Auth::user()->email}}" class="form-control" readonly required>
                                               </div>
                                           </div>
 
@@ -192,9 +176,11 @@ label{text-transform: uppercase;}
                                                   <label for="select" class=" form-control-label">8- Enfin, quel est votre numéro de téléphone ? (Whatsapp de préférence)</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <input type="number" id="phone" name="number-input" placeholder="Votre numéro de téléphone" class="form-control" required>
+                                                  <input type="number" id="phone" name="user_phone" value="{{Auth::user()->phone}}" class="form-control" required {{Auth::user()->phone ? 'readonly' : ''}}>
                                               </div>
                                           </div>
+
+                                          <input hidden type="text" name="user_id" value="{{Auth::user()->id}}" class="form-control" required>
 
                                           <div class="row form-group">
                                               <div class="col col-md-12">
@@ -202,7 +188,7 @@ label{text-transform: uppercase;}
                                               </div>
                                               <div class="col-12 col-md-9">
                                                 <div class="file-loading">
-                                                  <input id="file-1" type="file" multiple class="file" data-overwrite-initial="false" data-min-file-count="2">
+                                                  <input id="file-1" name="input2[]" type="file" multiple class="file" data-overwrite-initial="false" data-min-file-count="2">
                                                 </div>
                                               </div>
                                           </div>
@@ -211,7 +197,7 @@ label{text-transform: uppercase;}
                                                   <label for="select" class=" form-control-label">10- Description</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <input type="hidden" name="text">
+                                                  <input type="hidden" name="description">
                                                   <div class="" id="editorInformation" style="height: 300px;">
                                               </div>
                                           </div>
@@ -263,7 +249,7 @@ label{text-transform: uppercase;}
         var form = document.getElementById('information-container');
         form.onsubmit = function() {
           // Populate hidden form on submit
-          var text = document.querySelector('input[name=text]');
+          var text = document.querySelector('input[name=description]');
           text.value = quillComment.root.innerHTML;
 
         //   console.log("Submitted", $(form).serialize(), $(form).serializeArray());

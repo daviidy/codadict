@@ -9147,6 +9147,37 @@ Edit `src/js/core.js` instead.
 </style>
 
 
+
+<style media="screen">
+.fixed {
+    position: fixed;
+    bottom: 15px;
+    height: 70px;
+    z-index: 1;
+}
+
+.img_box{
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #ebebec;
+    border-radius: 5px;
+}
+.img_box img{
+    padding: 2px;
+    border: 2px solid #cecece;
+    width: 100%;
+    transition: transform 1.8s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img_box img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+.fa-cog{font-size: xx-large;}
+</style>
+
+
 <div id="root" style="height: 100%;">
   <div class="index__App--2OTWa">
 
@@ -9168,7 +9199,7 @@ Edit `src/js/core.js` instead.
             <div class="index__headerContainer--2DUI1">
               <div class="index__headerText--1706O"><img alt="app-details" class="DevPortalIcon" height="28" src="https://ton.twimg.com/dataproducts/devportalvnext/dist/276e357dd1fbe9d779e38eb6e5e822f9.svg" width="22">
                 <h6 data-testid="app-details">LES DETAILS</h6>
-              </div><a href="/en/portal/projects/1297933854058176512/apps/18626638/settings/edit"><button class="Button Button--primary" tabindex="0" type="button"><span class="Button-label"><span
+            </div><a href="{{route('projects.edit', $project)}}"><button class="Button Button--primary" tabindex="0" type="button"><span class="Button-label"><span
                       class="Icon Icon--editPencil index__editPencil--1rb7K"></span> Modifier</span></button></a>
             </div>
             <div>
@@ -9177,10 +9208,10 @@ Edit `src/js/core.js` instead.
                   <div class="index__panel--37cbW Panel">
                     <div class="index__basicPanelHeader--2i4kh Panel-header">
                       <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">QUE VOULEZ-VOUS EXACTEMENT ?</div>
+                        <div class="Panel-title" role="heading">Catégorie</div>
                       </div>
                     </div>
-                    <div class="Panel-body">Blog ReactJS</div>
+                    <div class="Panel-body">{{$project->category->name}}</div>
                   </div>
                 </div>
 
@@ -9188,10 +9219,10 @@ Edit `src/js/core.js` instead.
                   <div class="index__panel--37cbW Panel">
                     <div class="index__basicPanelHeader--2i4kh Panel-header">
                       <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">QUEL EST VOTRE NOM COMPLET ?</div>
+                        <div class="Panel-title" role="heading">Description</div>
                       </div>
                     </div>
-                    <div class="Panel-body">Blog ReactJS</div>
+                    <div class="Panel-body">{!!$project->description!!}</div>
                   </div>
                 </div>
 
@@ -9199,10 +9230,10 @@ Edit `src/js/core.js` instead.
                   <div class="index__panel--37cbW Panel">
                     <div class="index__basicPanelHeader--2i4kh Panel-header">
                       <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">QUEL EST LE NOM DE VOTRE ENTREPRISE ?</div>
+                        <div class="Panel-title" role="heading">Budget</div>
                       </div>
                     </div>
-                    <div class="Panel-body">Blog ReactJS</div>
+                    <div class="Panel-body">{{$project->price}} EUR</div>
                   </div>
                 </div>
 
@@ -9210,10 +9241,10 @@ Edit `src/js/core.js` instead.
                   <div class="index__panel--37cbW Panel">
                     <div class="index__basicPanelHeader--2i4kh Panel-header">
                       <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">A QUEL POINT VOTRE DEMANDE EST-ELLE URGENTE ?</div>
+                        <div class="Panel-title" role="heading">Deadline</div>
                       </div>
                     </div>
-                    <div class="Panel-body">Blog ReactJS</div>
+                    <div class="Panel-body">{{$projet->deadline}}</div>
                   </div>
                 </div>
 
@@ -9221,54 +9252,41 @@ Edit `src/js/core.js` instead.
                   <div class="index__panel--37cbW Panel">
                     <div class="index__basicPanelHeader--2i4kh Panel-header">
                       <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">QUEL EST VOTRE BUDGET ?</div>
+                        <div class="Panel-title" role="heading">Statut</div>
                       </div>
                     </div>
-                    <div class="Panel-body">Blog ReactJS</div>
+                    <div class="Panel-body">En cours d'évaluation</div>
                   </div>
                 </div>
+
 
                 <div class="pure-u-12-12 pure-u-lg-8-12">
                   <div class="index__panel--37cbW Panel">
                     <div class="index__basicPanelHeader--2i4kh Panel-header">
                       <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">QUEL EST LE DÉLAI POUR VOTRE PROJET (SI VOUS VOULEZ RÉALISER UN PROJET) ?</div>
+                        <div class="Panel-title" role="heading">Documents</div>
                       </div>
                     </div>
-                    <div class="Panel-body">Blog ReactJS</div>
-                  </div>
-                </div>
+                    <div class="Panel-body">
+                        @if(count($project->multimedias) > 0)
 
-                <div class="pure-u-12-12 pure-u-lg-8-12">
-                  <div class="index__panel--37cbW Panel">
-                    <div class="index__basicPanelHeader--2i4kh Panel-header">
-                      <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">QUELLE EST VOTRE MEILLEURE ADRESSE EMAIL?</div>
-                      </div>
-                    </div>
-                    <div class="Panel-body">Blog ReactJS</div>
-                  </div>
-                </div>
+                                <div class="img_box">
+                                        <div class="row">
+                                            @foreach($project->multimedias as $multimedia)
+                                            @if(strpos($multimedia->name, '.png') !== false || strpos($multimedia->name, '.jpg') !== false || strpos($multimedia->name, '.jpeg') !== false)
+                                                <div class="col-md-4 col-sm-12">
+                                                    <img src="/storage/files/projects/{{$multimedia->name}}" >
+                                                </div>
+                                            @endif
+                                            @endforeach
 
-                <div class="pure-u-12-12 pure-u-lg-8-12">
-                  <div class="index__panel--37cbW Panel">
-                    <div class="index__basicPanelHeader--2i4kh Panel-header">
-                      <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">ENFIN, QUEL EST VOTRE NUMÉRO DE TÉLÉPHONE ? (WHATSAPP DE PRÉFÉRENCE)</div>
-                      </div>
-                    </div>
-                    <div class="Panel-body">Blog ReactJS</div>
-                  </div>
-                </div>
+                                            </div>
 
-                <div class="pure-u-12-12 pure-u-lg-8-12">
-                  <div class="index__panel--37cbW Panel">
-                    <div class="index__basicPanelHeader--2i4kh Panel-header">
-                      <div class="Panel-headerContent">
-                        <div class="Panel-title" role="heading">DOCUMENT</div>
-                      </div>
+
+                                </div>
+
+                        @endif
                     </div>
-                    <div class="Panel-body">Blog ReactJS</div>
                   </div>
                 </div>
 

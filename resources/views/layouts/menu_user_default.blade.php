@@ -63,9 +63,9 @@
             <div class="menu-sidebar2__content js-scrollbar1">
                 <div class="account2">
                     <div class="image img-cir img-120">
-                        <img src="/assets/imgs/icon/avatar-01.jpg" alt="John Doe" />
+                        <img src="/storage/images/users/{{Auth::user()->image}}" alt="{{Auth::user()->name}}" />
                     </div>
-                    <h4 class="name">john doe</h4>
+                    <h4 class="name">{{Auth::user()->name}}</h4>
                     <a href="#" onclick="event.preventDefault();
                               document.getElementById('logout-form').submit();"><i class="fas fa-sign-out-alt"></i>
                               Déconnexion
@@ -123,10 +123,12 @@
                                     <a href="{{route('projects.create')}}">
                                         <i class="fas fa-plus-circle"></i>Creer</a>
                                 </li>
+                                <!--
                                 <li>
                                     <a href="/users/editproject">
                                         <i class="fas fa-pen-square"></i>Modifier mon projet</a>
                                 </li>
+                            -->
                                 <!--li>
                                     <a href="map.html">
                                         <i class="fas fa-map-marker-alt"></i>Maps</a>
@@ -135,7 +137,7 @@
                         </li>
 
                         <li>
-                            <a href="/users/edit">
+                            <a href="{{route('users.edit', Auth::user())}}">
                                 <i class="fas fa-cog"></i>Paramètres</a>
                         </li>
                         <!--li class="has-sub">
@@ -291,7 +293,7 @@
                                                 <i class="zmdi zmdi-account"></i>Tableau de bord</a>
                                         </div>
                                         <div class="account-dropdown__item">
-                                            <a href="#">
+                                            <a href="{{route('users.edit', Auth::user())}}">
                                                 <i class="zmdi zmdi-settings"></i>Paramètres</a>
                                         </div>
                                         <div class="account-dropdown__item">
@@ -332,9 +334,9 @@
                 <div class="menu-sidebar2__content js-scrollbar2">
                     <div class="account2">
                         <div class="image img-cir img-120">
-                            <img src="/assets/imgs/icon/avatar-01.jpg" alt="John Doe" />
+                            <img src="/storage/images/users/{{Auth::user()->image}}" alt="{{Auth::user()->name}}" />
                         </div>
-                        <h4 class="name">john doe</h4>
+                        <h4 class="name">{{Auth::user()->name}}</h4>
                         <a href="{{ route('logout') }}" onclick="event.preventDefault();
                                   document.getElementById('logout-form').submit();"><i class="fas fa-sign-out-alt"></i>
                                   Déconnexion
@@ -386,10 +388,12 @@
                                         <a href="/users/createproject">
                                             <i class="fas fa-plus-circle"></i>Creer</a>
                                     </li>
+                                    <!--
                                     <li>
                                         <a href="/users/editproject">
                                             <i class="fas fa-pen-square"></i>Modifier mon projet</a>
                                     </li>
+                                -->
                                     <!--li>
                                         <a href="map.html">
                                             <i class="fas fa-map-marker-alt"></i>Maps</a>
