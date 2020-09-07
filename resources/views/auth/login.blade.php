@@ -21,6 +21,9 @@
       background-color: #A8A8A8;
       font-family: 'Montserrat', sans-serif;
     }
+    .invalid-feedback, input{
+      font-family: 'Montserrat', sans-serif;
+    }
     .invalid-feedback{
       font-size: x-small;
       color: red;
@@ -131,7 +134,7 @@
 
     .login button,
     .signup button {
-      background-color: #35B729;
+      background-color: #4d90cc;
       border: none;
       color: white;
       font-size: 12px;

@@ -155,23 +155,7 @@ label{text-transform: uppercase;}
                                                   <label class=" form-control-label">5- Quel est votre budget ? (facultatif)</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <div class="form-check">
-                                                      <div class="radio">
-                                                          <label for="radio1" class="form-check-label ">
-                                                              <input type="radio" id="radio1" name="radios" value="option1" class="form-check-input">Moins de 350 €
-                                                          </label>
-                                                      </div>
-                                                      <div class="radio">
-                                                          <label for="radio2" class="form-check-label ">
-                                                              <input type="radio" id="radio2" name="radios" value="option2" class="form-check-input">Autour de 1500 €
-                                                          </label>
-                                                      </div>
-                                                      <div class="radio">
-                                                          <label for="radio3" class="form-check-label ">
-                                                              <input type="radio" id="radio3" name="radios" value="option3" class="form-check-input">Le ciel est la limite
-                                                          </label>
-                                                      </div>
-                                                  </div>
+                                                  <input type="number" id="text-input" name="price" value="" class="form-control" min="100">
                                               </div>
                                           </div>
 
@@ -211,17 +195,15 @@ label{text-transform: uppercase;}
                                                 </div>
                                               </div>
                                           </div>
+                                          <div class="card-footer">
+                                              <button type="submit" class="btn btn-primary btn-sm">
+                                                  <i class="far fa-paper-plane"></i> Envoyer
+                                              </button>
 
+                                          </div>
                                       </form>
                                   </div>
-                                  <div class="card-footer">
-                                      <button type="submit" class="btn btn-primary btn-sm">
-                                          <i class="far fa-paper-plane"></i> Envoyer
-                                      </button>
-                                      <button type="reset" class="btn btn-danger btn-sm">
-                                          <i class="fa fa-ban"></i> Reset
-                                      </button>
-                                  </div>
+
                               </div>
 
                           </div>
