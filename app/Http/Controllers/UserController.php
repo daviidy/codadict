@@ -22,7 +22,7 @@ class UserController extends Controller
     {
         if (Auth::check() && Auth::user()->isAdmin()) {
             $users = User::orderby('id', 'asc')->paginate(30);
-            return view('users.user_admin.index', ['users' => $users]);
+            return view('users.user_admin.users.index', ['users' => $users]);
         }
         else {
             return redirect('home');

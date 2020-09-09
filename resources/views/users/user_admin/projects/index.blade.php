@@ -45,7 +45,7 @@
                                 </thead>
                                 <tbody>
 
-                                    @foreach($project as $projects)
+                                    @foreach($projects as $project)
                                     <tr>
                                         <th scope="row">{{$loop->index + 1}}</th>
                                         <td>{{$project->price}}</td>
