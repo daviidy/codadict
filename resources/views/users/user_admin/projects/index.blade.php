@@ -35,30 +35,35 @@
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Nom de l'entreprise</th>
-                                        <th>Email</th>
-                                        <th>Type de projet</th>
-                                        <th></th>
+                                        <th>Prix</th>
+                                        <th>Catégories</th>
+                                        <th>Utilisateurs</th>
+                                        <th>Deadline</th>
+                                        <th>L'urgence</th>
+                                        <th>status</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach($users as $user)
+
+                                    @foreach($project as $projects)
                                     <tr>
                                         <th scope="row">{{$loop->index + 1}}</th>
-                                        <td>{{$user->name}}</td>
-                                        <td>
-                                            {{$user->email}}
-                                        </td>
-                                        <td>{{$user->type}}</td>
+                                        <td>{{$project->price}}</td>
+                                        <td>{{$project->category->name}}</td>
+                                        <td>{{$project->user->name}}</td>
+                                        <td>{{$project->deadline}}</td>
+                                        <td>{{$project->urgency}}</td>
+                                        <td>$project->status</td>
+
                                         <td>
                                             <div class="row">
-                                                <div class="col-6">
+                                                <!--div class="col-6">
                                                     <a class="float-right" href="/admin/users/{{$user->id}}">
                                                         <i class="icon-pencil text-primary"></i>
                                                     </a>
-                                                </div>
+                                                </div-->
                                                 <div class="col-6">
-                                                    <form action="{{ route('users.destroy', $user) }}" method="post">
+                                                    <form action="{{ route('projects.destroy', $project) }}" method="post">
                                                         {{ csrf_field() }}
                                                         {{ method_field('delete') }}
                                                         <button
@@ -72,19 +77,7 @@
 
 
                                         </td>
-                                        <td>
-                                          {{--
-                                            @if($user->type == 'admin')
-                                            <a href="/revokeAdmin/{{$user->id}}">
-                                                Retirer les droits administrateurs
-                                            </a>
-                                            @else
-                                            <a href="/defineAsAdmin/{{$user->id}}">
-                                                Définir comme admin
-                                            </a>
-                                            @endif
-                                            --}}
-                                        </td>
+
                                     </tr>
                                     @endforeach
                                 </tbody>

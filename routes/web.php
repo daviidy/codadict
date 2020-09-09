@@ -33,10 +33,10 @@ Route::get('/admin-1', function () {
     return view('/users/user_admin/index');
 });
 Route::get('/admin-2', function () {
-    return view('/users/user_admin/users_list');
+    return view('/users/user_admin/users/show');
 });
 Route::get('/admin-3', function () {
-    return view('/users/user_admin/show_project');
+    return view('/users/user_admin/projects/index');
 });
 
 Route::get('/users/createproject', function () {

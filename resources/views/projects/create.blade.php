@@ -74,20 +74,11 @@ label{text-transform: uppercase;}
 
                           <div class="col-lg-12 col-md-12 col-sm-12">
                               <div class="card">
-                                  <!--div class="card-header">
-                                      <strong>Basic Form</strong> Elements
-                                  </div-->
+
                                   <div class="card-body card-block">
                                       <form action="{{route('projects.store')}}" method="post" enctype="multipart/form-data" class="">
                                           @csrf
-                                          <!--div class="row form-group">
-                                              <div class="col col-md-3">
-                                                  <label class=" form-control-label">Static</label>
-                                              </div>
-                                              <div class="col-12 col-md-9">
-                                                  <p class="form-control-static">Username</p>
-                                              </div>
-                                          </div-->
+
                                           <div class="row form-group">
                                               <div class="col col-md-12">
                                                   <label for="text-input" class=" form-control-label">1- Que voulez-vous exactement ?</label>
@@ -153,7 +144,7 @@ label{text-transform: uppercase;}
                                                   <label class=" form-control-label">5- Quel est votre budget ? (en Euros)</label>
                                               </div>
                                               <div class="col-12 col-md-9">
-                                                  <input type="number" id="text-input" name="price" value="" class="form-control">
+                                                  <input type="number" id="text-input" name="price" value="" class="form-control" min="100">
                                               </div>
                                           </div>
 
@@ -191,7 +182,7 @@ label{text-transform: uppercase;}
                                               </div>
                                               <div class="col-12 col-md-9">
                                                 <div class="file-loading">
-                                                  <input id="file-1" name="input2[]" type="file" multiple class="file" data-overwrite-initial="false" data-min-file-count="2">
+                                                  <input id="file-1" name="input2[]" type="file" multiple class="file" data-overwrite-initial="false" >
                                                 </div>
                                               </div>
                                           </div>
@@ -201,18 +192,18 @@ label{text-transform: uppercase;}
                                               </div>
                                               <div class="col-12 col-md-9">
                                                   <input type="hidden" name="description">
-                                                  <div class="" id="editorInformation" style="height: 300px;">
+                                                  <div class="" id="editorInformation" style="height: 300px;"></div>
                                               </div>
                                           </div>
+                                          <div class="card-footer">
+                                              <button type="submit" class="btn btn-primary btn-sm">
+                                                  <i class="far fa-paper-plane"></i> Envoyer
+                                              </button>
 
+                                          </div>
                                       </form>
                                   </div>
-                                  <div class="card-footer">
-                                      <button type="submit" class="btn btn-primary btn-sm">
-                                          <i class="far fa-paper-plane"></i> Envoyer
-                                      </button>
 
-                                  </div>
                               </div>
 
                           </div>
@@ -288,7 +279,7 @@ label{text-transform: uppercase;}
         allowedFileExtensions: ['jpg', 'png', 'gif','pdf'],
         overwriteInitial: false,
         maxFileSize:2000,
-        maxFilesNum: 10,
+        /*maxFilesNum: 10,*/
         slugCallback: function (filename) {
             return filename.replace('(', '_').replace(']', '_');
         }

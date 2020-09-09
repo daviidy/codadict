@@ -20,6 +20,9 @@ Favicons
       background-color: #A8A8A8;
       font-family: 'Montserrat', sans-serif;
     }
+    .invalid-feedback, input{
+      font-family: 'Montserrat', sans-serif;
+    }
 
     .container {
       /*border:1px solid white;*/
@@ -128,7 +131,7 @@ Favicons
 
     .login button,
     .signup button {
-      background-color: #35B729;
+      background-color: #4d90cc;
       border: none;
       color: white;
       font-size: 12px;
@@ -212,13 +215,7 @@ Favicons
 
   <div class="container">
     <div class="backbox">
-      <!--div class="loginMsg">
-        <div class="textcontent">
-          <p class="title">Vous n’avez pas de compte ?</p>
-          <p>Inscrivez-vous pour vous enregistrez.</p>
-          <button id="switch1">Inscrivez-vous</button>
-        </div>
-      </div-->
+
       <div class="signupMsg ">
         <div class="textcontent">
           <p class="title">Avez-vous un compte ?</p>
@@ -230,16 +227,7 @@ Favicons
     <!-- backbox -->
 
     <div class="frontbox">
-      <!--div class="login">
-        <h2>SE CONNECTER</h2>
-        <div class="inputbox">
-          <input type="text" name="email" placeholder="  EMAIL">
-          <input type="password" name="password" placeholder="  MOT DE PASS">
-        </div>
-        <p>Mot de pass oublier?</p>
-        <button>SE CONNECTER</button>
-        <p class="text01">Vous n’avez pas de compte ? <a href="#" id="switch4">S'inscrire</a> </p>
-      </div-->
+
  <form class="" action="{{ route('register') }}" method="post">
    @csrf
 
@@ -273,56 +261,6 @@ Favicons
     </div>
     <!-- frontbox -->
   </div>
-
-  <!--script type="text/javascript">
-    $(document).ready(function() {
-      var $loginMsg = $('.loginMsg'),
-        $login = $('.login'),
-        $signupMsg = $('.signupMsg'),
-        $signup = $('.signup'),
-        $frontbox = $('.frontbox');
-
-      $('#switch1').on('click', function() {
-        $loginMsg.toggleClass("visibility");
-        $frontbox.addClass("moving");
-        $signupMsg.toggleClass("visibility");
-
-        $signup.toggleClass('hide');
-        $login.toggleClass('hide');
-      })
-
-      $('#switch2').on('click', function() {
-        $loginMsg.toggleClass("visibility");
-        $frontbox.removeClass("moving");
-        $signupMsg.toggleClass("visibility");
-
-        $signup.toggleClass('hide');
-        $login.toggleClass('hide');
-      })
-
-      $('#switch3').on('click', function() {
-
-        $signup.toggleClass('hide');
-        $login.toggleClass('hide');
-      })
-
-      $('#switch4').on('click', function() {
-
-        $signup.toggleClass('hide');
-        $login.toggleClass('hide');
-      })
-
-      setTimeout(function() {
-        $('#switch1').click()
-      }, 1000)
-
-      setTimeout(function() {
-        $('#switch2').click()
-      }, 3000)
-
-
-    });
-  </script-->
 </body>
 
 </html>

@@ -4341,8 +4341,8 @@ Favicons
                 <a href="/login" data-v-62883d68="" class="navbar-item navbar-simple bg-blue is-hidden-desktop frk-action-button-blue">TABLEAU DE BORD</a>
              @endauth
               <a data-v-62883d68="" href="/"
-              class="navbar-item navbar-simple router-link-active">ACCUEIL</a><a data-v-62883d68="" href="/codact" class="navbar-item navbar-simple">CONCEPT</a><a data-v-62883d68="" href="/contact" class="navbar-item navbar-simple" id="contact"
-              data-test="ContactLink">CONTACTEZ NOUS</a></div>
+              class="navbar-item navbar-simple router-link-active">ACCUEIL</a><a data-v-62883d68="" href="/codact" class="navbar-item navbar-simple">CONCEPT</a><!--a data-v-62883d68="" href="/contact" class="navbar-item navbar-simple" id="contact"
+              data-test="ContactLink">CONTACTEZ NOUS</a--></div>
           <div data-v-62883d68="" class="navbar-end is-hidden-touch">
             @guest
               <a href="/login" data-v-62883d68="" class="mr-2 frk-action-button-blue frk-has-arrow">ME CONNECTER</a>
@@ -4369,7 +4369,7 @@ Favicons
           </div-->
         </div>
         <div data-v-d722a68c="" class="column">
-          <div data-v-d722a68c="" class="title">LIENS</div>
+          {{--<div data-v-d722a68c="" class="title">LIENS</div>
           <nav data-v-d722a68c="">
             <ul data-v-d722a68c="" class="text">
               <!--li data-v-d722a68c=""><a data-v-d722a68c="" href="https://blog.freelancerepublik.com">Blog</a></li>
@@ -4377,7 +4377,7 @@ Favicons
               <li data-v-d722a68c=""><a data-v-d722a68c="" href="/on-demand" class="">Nous contacter</a></li>
               <!--li data-v-d722a68c=""><a data-v-d722a68c="" href="/concept" class="">Concept</a></li-->
             </ul>
-          </nav>
+          </nav>--}}
         </div>
         <!--div data-v-d722a68c="" class="column">
           <div data-v-d722a68c="" class="title">MENTIONS LEGALES</div>
