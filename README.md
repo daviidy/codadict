@@ -1,7 +1,7 @@
 # Codadict
 Web application to allow users to submit projects
 
-![screenshot](./public/images/screenshot.png)
+![screenshot](./public/assets/screenshot.png)
 
 This project consists of building a web application that will allow users to submit their projects. The client wanted a system who will help his team to manage more efficinetly their projects.
 
